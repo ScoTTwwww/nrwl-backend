@@ -1,0 +1,10 @@
+{
+    "type": "mssql",
+    "host": "127.0.0.1",
+    "port": 1433,
+    "username": "SA",
+    "password": "<YourStrong@Passw0rd>",
+    "database": "shopCart",
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "synchronize": true
+  }
