@@ -41,6 +41,13 @@ export class UsersService {
 
     return await this.usersModel.findById(_id).exec();
   }
+  
+  async delete(_id: string) {
+    await this.usersModel.findByIdAndRemove(_id).exec();
+    let user = await this.usersModel.findById(_id).exec();
+
+    return { message: !user? "刪除成功": "刪除失敗"}
+  }
 
   /* async remove(id: string): Promise<void> {
     await this.usersRepository.delete(id);

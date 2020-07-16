@@ -1,4 +1,4 @@
-import { Controller, Post, Body, Get, Param, Response, HttpStatus } from '@nestjs/common';
+import { Controller, Post, Body, Get, Param, Response, HttpStatus, Delete } from '@nestjs/common';
 import { UsersService } from './users.service';
 import { create } from 'domain';
 import { User } from './dto/create-user.dto';
@@ -28,7 +28,10 @@ export class UsersController {
     return this.Userservice.update(_id, body);
   }
 
-
+  @Delete(':_id')
+  deleteUser(@Param('_id') _id) {
+    return this.Userservice.delete(_id);
+  }
 
   @Post()
   create(@Response() res, @Body() createUserDto: User) {
