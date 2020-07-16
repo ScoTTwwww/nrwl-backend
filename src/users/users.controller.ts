@@ -1,4 +1,4 @@
-import { Controller, Post, Body, Get, Param } from '@nestjs/common';
+import { Controller, Post, Body, Get, Param, Response, HttpStatus } from '@nestjs/common';
 import { UsersService } from './users.service';
 import { create } from 'domain';
 import { User } from './dto/create-user.dto';
@@ -12,19 +12,20 @@ export class UsersController {
   getAll() {
     return this.Userservice.findAll();
   }
- /*  @Post()
-  create(@Body() createCatDto: CreateCatDto) {
-    this.Userservice.create(createCatDto);
-  } */
+  /*  @Post()
+   create(@Body() createCatDto: CreateCatDto) {
+     this.Userservice.create(createCatDto);
+   } */
 
-  @Get(':userName')
-  getUserById(@Param('userName') userName){
-     
-    return this.Userservice.findOne(userName);
+  @Get(':_id')
+  getUserById(@Param('_id') _id) {
+    return this.Userservice.findOne(_id);
   }
 
   @Post()
-  create(@Body() createUserDto: User) {
+  create(@Response() res, @Body() createUserDto: User) {
     this.Userservice.create(createUserDto);
+
+    return res.status(HttpStatus.OK).json(createUserDto);
   }
 }

@@ -23,11 +23,12 @@ export class UsersService {
 
   async findAll(): Promise<User[]> {
     console.log(await this.usersModel.find())
+
     return await this.usersModel.find();
   }
 
-  async findOne(userName: string): Promise<User> {
-    return await this.usersModel.find((user) => user.userName === userName);
+  async findOne(_id: string): Promise<User> {
+    return await this.usersModel.findById(_id).exec();
   }
 
   /* async remove(id: string): Promise<void> {
