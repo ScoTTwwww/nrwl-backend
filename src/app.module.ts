@@ -14,7 +14,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 @Module({
   imports: [
     UsersModule,
-    MongooseModule.forRoot('mongodb://scott168:scott168@ds127399.mlab.com:27399/scott-api')
+    MongooseModule.forRoot('mongodb://scott168:scott168@ds249967.mlab.com:49967/shoping-cart')
   ],
   
   controllers: [AppController],

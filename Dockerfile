@@ -8,4 +8,4 @@ WORKDIR ${APP_DIR}
 
 COPY package.json package-lock.json ${APP_DIR}/
 
-RUN git init && npm install 
+RUN  npm install 

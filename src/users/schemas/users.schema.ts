@@ -1,9 +1,11 @@
 import * as mongoose from 'mongoose';
 //定义mongodb的数据模型
 export const UsersScheme = new mongoose.Schema({
-    userName: String, 
-    password: String,
-    nickName: String,
+    id: String,
     email: String,
-    introduce: String,
+    password: String,
+    type: String,
+    nickname: String,
+    created_at: Date,
+    updated_at: Date
 });
