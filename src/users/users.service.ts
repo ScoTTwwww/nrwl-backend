@@ -31,6 +31,17 @@ export class UsersService {
     return await this.usersModel.findById(_id).exec();
   }
 
+  async update(_id: string, data: User) {
+
+    let user = await this.usersModel.findById(_id).exec();
+
+    if(!user._id) console.error("user doesn't exist");
+
+    await this.usersModel.findByIdAndUpdate(_id, data).exec();
+
+    return await this.usersModel.findById(_id).exec();
+  }
+
   /* async remove(id: string): Promise<void> {
     await this.usersRepository.delete(id);
   }   */

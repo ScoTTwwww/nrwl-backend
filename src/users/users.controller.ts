@@ -22,6 +22,14 @@ export class UsersController {
     return this.Userservice.findOne(_id);
   }
 
+
+  @Post(':_id')
+  updateUser(@Param('_id') _id, @Body() body) {
+    return this.Userservice.update(_id, body);
+  }
+
+
+
   @Post()
   create(@Response() res, @Body() createUserDto: User) {
     this.Userservice.create(createUserDto);
