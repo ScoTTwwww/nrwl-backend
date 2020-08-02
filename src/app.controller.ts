@@ -52,4 +52,10 @@ export class AppController {
   create(@Body() userDTO: UserDTO){ // userDTO: UserDTO代表userDTO是UserDTO型別
     return `使用者:${userDTO.username}已建立`;
   } */
+
+
+  @Post()
+  create( ){ // userDTO: UserDTO代表userDTO是UserDTO型別
+    return 'FK'
+  }  
 }

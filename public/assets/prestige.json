@@ -1,0 +1,630 @@
+{
+  "Heroes": {
+    "Archer": {
+      "Archer01": 9,
+      "Archer02": 5,
+      "Archer03": 11,
+      "Archer04": 10,
+      "Archer05": 4,
+      "Archer06": 8,
+      "Archer07": 4,
+      "Archer08": 1,
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 4,
+      "PromoteExp": 222,
+      "Rank": 30
+    },
+    "Bard": {
+      "Awaken": 1,
+      "AwakenAbils": {
+        "Awaken_Bard_SilenceRange1": {
+          "AddTime": 44022.7302691435,
+          "Level": 1
+        },
+        "Awaken_MagicCompatibilityATK2": {
+          "AddTime": 44042.6284834722,
+          "Level": 1
+        }
+      },
+      "Bard01": 6,
+      "Bard02": 16,
+      "Bard03": 8,
+      "Bard04": 4,
+      "Bard05": 1,
+      "Bard06": 7,
+      "Bard07": 4,
+      "Bard08": 3,
+      "Bard09": 8,
+      "Bard10": 1,
+      "Level": 1,
+      "MaxLevel": 2000,
+      "Promote": 3,
+      "PromoteExp": 60,
+      "Rank": 47
+    },
+    "Corsair": {
+      "Corsair01": 20,
+      "Corsair02": 10,
+      "Corsair03": 6,
+      "Corsair04": 6,
+      "Corsair05": 9,
+      "Corsair06": 4,
+      "Corsair07": 1,
+      "Corsair08": 13,
+      "Corsair09": 8,
+      "Corsair10": 4,
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 2,
+      "PromoteExp": 4,
+      "Rank": 45
+    },
+    "CrossbowMan": {
+      "CrossbowMan01": 7,
+      "CrossbowMan02": 8,
+      "CrossbowMan03": 11,
+      "CrossbowMan04": 3,
+      "CrossbowMan05": 7,
+      "CrossbowMan06": 4,
+      "CrossbowMan07": 1,
+      "CrossbowMan08": 2,
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 3,
+      "PromoteExp": 25,
+      "Rank": 30
+    },
+    "Dragoon": {
+      "Dragoon01": 5,
+      "Dragoon02": 3,
+      "Dragoon03": 5,
+      "Dragoon04": 7,
+      "Dragoon05": 2,
+      "Dragoon06": 1,
+      "Dragoon08": 10,
+      "Dragoon09": 5,
+      "Dragoon10": 2,
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 2,
+      "PromoteExp": 42,
+      "Rank": 30
+    },
+    "Druid": {
+      "Druid01": 10,
+      "Druid02": 13,
+      "Druid03": 10,
+      "Druid04": 2,
+      "Druid05": 1,
+      "Druid06": 1,
+      "Druid08": 10,
+      "Druid09": 5,
+      "Druid10": 2,
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 2,
+      "PromoteExp": 19,
+      "Rank": 30
+    },
+    "Elf": {
+      "Elf01": 1,
+      "Elf02": 2,
+      "Elf03": 1,
+      "Elf04": 12,
+      "Elf06": 1,
+      "Elf07": 7,
+      "Elf08": 1,
+      "Elf09": 1,
+      "Elf10": 1,
+      "Level": 1,
+      "MaxLevel": 1100,
+      "Promote": 3,
+      "PromoteExp": 17,
+      "Rank": 45
+    },
+    "Enchanter": {
+      "Awaken": 1,
+      "Enchanter01": 14,
+      "Enchanter02": 2,
+      "Enchanter03": 5,
+      "Enchanter04": 13,
+      "Enchanter05": 1,
+      "Enchanter06": 2,
+      "Enchanter07": 11,
+      "Enchanter08": 3,
+      "Enchanter09": 1,
+      "Enchanter10": 3,
+      "Level": 1,
+      "MaxLevel": 1100,
+      "Promote": 3,
+      "PromoteExp": 23,
+      "Rank": 57
+    },
+    "Fighter": {
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 1,
+      "PromoteExp": 0,
+      "Rank": 1
+    },
+    "FortuneTeller": {
+      "FortuneTeller01": 10,
+      "FortuneTeller02": 8,
+      "FortuneTeller03": 7,
+      "FortuneTeller04": 4,
+      "FortuneTeller05": 5,
+      "FortuneTeller08": 3,
+      "FortuneTeller09": 2,
+      "FortuneTeller10": 2,
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 2,
+      "PromoteExp": 30,
+      "Rank": 30
+    },
+    "FrostMage": {
+      "FrostMage01": 8,
+      "FrostMage02": 8,
+      "FrostMage03": 13,
+      "FrostMage04": 16,
+      "FrostMage05": 8,
+      "FrostMage06": 3,
+      "FrostMage07": 6,
+      "FrostMage08": 3,
+      "FrostMage09": 2,
+      "Level": 1,
+      "MaxLevel": 1100,
+      "Promote": 5,
+      "PromoteExp": 120,
+      "Rank": 48
+    },
+    "HawkRider": {
+      "HawkRider01": 1,
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 3,
+      "PromoteExp": 5,
+      "Rank": 23
+    },
+    "Knight": {
+      "Knight01": 25,
+      "Knight02": 8,
+      "Knight03": 11,
+      "Knight04": 4,
+      "Knight05": 9,
+      "Knight06": 1,
+      "Knight07": 11,
+      "Knight08": 2,
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 5,
+      "PromoteExp": 63,
+      "Rank": 30
+    },
+    "Lancer": {
+      "Lancer01": 5,
+      "Lancer02": 1,
+      "Lancer03": 2,
+      "Lancer05": 1,
+      "Lancer06": 1,
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 4,
+      "PromoteExp": 43,
+      "Rank": 30
+    },
+    "Legion": {
+      "Legion01": 2,
+      "Legion02": 2,
+      "Legion03": 2,
+      "Legion04": 1,
+      "Legion08": 2,
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 2,
+      "PromoteExp": 6,
+      "Rank": 30
+    },
+    "Librarian": {
+      "Level": 1,
+      "Librarian01": 7,
+      "Librarian02": 8,
+      "Librarian03": 8,
+      "Librarian04": 5,
+      "Librarian05": 4,
+      "Librarian06": 6,
+      "Librarian07": 1,
+      "Librarian08": 3,
+      "MaxLevel": 1000,
+      "Promote": 4,
+      "PromoteExp": 38,
+      "Rank": 26
+    },
+    "Monk": {
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Monk01": 1,
+      "Promote": 2,
+      "PromoteExp": 44,
+      "Rank": 21
+    },
+    "Necromancer": {
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Necromancer01": 12,
+      "Necromancer02": 1,
+      "Necromancer03": 7,
+      "Necromancer04": 5,
+      "Promote": 3,
+      "PromoteExp": 12,
+      "Rank": 30
+    },
+    "Ninja": {
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Ninja01": 10,
+      "Ninja02": 11,
+      "Ninja03": 10,
+      "Ninja04": 10,
+      "Ninja05": 9,
+      "Ninja06": 6,
+      "Ninja07": 5,
+      "Ninja08": 2,
+      "Ninja09": 1,
+      "Promote": 3,
+      "PromoteExp": 69,
+      "Rank": 34
+    },
+    "Onmyoji": {
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Onmyoji01": 4,
+      "Onmyoji02": 12,
+      "Onmyoji03": 5,
+      "Onmyoji04": 3,
+      "Onmyoji05": 2,
+      "Onmyoji06": 2,
+      "Onmyoji08": 2,
+      "Promote": 2,
+      "PromoteExp": 39,
+      "Rank": 30
+    },
+    "Paladin": {
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Paladin01": 10,
+      "Paladin02": 15,
+      "Paladin04": 1,
+      "Paladin05": 3,
+      "Paladin06": 6,
+      "Paladin07": 1,
+      "Promote": 3,
+      "PromoteExp": 13,
+      "Rank": 45
+    },
+    "Pirate": {
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Pirate01": 5,
+      "Pirate02": 2,
+      "Pirate03": 6,
+      "Pirate04": 2,
+      "Pirate05": 2,
+      "Pirate06": 1,
+      "Pirate08": 1,
+      "Promote": 3,
+      "PromoteExp": 90,
+      "Rank": 25
+    },
+    "PlagueDoctor": {
+      "Level": 1,
+      "MaxLevel": 1000,
+      "PlagueDoctor01": 5,
+      "PlagueDoctor02": 8,
+      "PlagueDoctor03": 4,
+      "PlagueDoctor04": 1,
+      "PlagueDoctor05": 3,
+      "PlagueDoctor06": 6,
+      "PlagueDoctor07": 4,
+      "PlagueDoctor08": 3,
+      "Promote": 2,
+      "PromoteExp": 39,
+      "Rank": 30
+    },
+    "Puppet": {
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 4,
+      "PromoteExp": 119,
+      "Puppet01": 11,
+      "Puppet02": 3,
+      "Puppet03": 4,
+      "Puppet04": 1,
+      "Puppet05": 1,
+      "Puppet06": 4,
+      "Puppet07": 1,
+      "Rank": 20
+    },
+    "Pyromancer": {
+      "Awaken": 1,
+      "AwakenAbils": {
+        "Awaken_ATK2": {
+          "AddTime": 44017.1797982639,
+          "Level": 2
+        },
+        "Awaken_MagicCompatibilityATK3": {
+          "AddTime": 44012.5682752778,
+          "Level": 2
+        },
+        "Awaken_Pyromancer_MeteorFallATK3": {
+          "AddTime": 44037.0582261111,
+          "Level": 6
+        },
+        "Awaken_SplashATK2": {
+          "AddTime": 44013.4883851505,
+          "Level": 1
+        }
+      },
+      "Level": 1,
+      "MaxLevel": 7000,
+      "Promote": 5,
+      "PromoteExp": 80,
+      "Pyromancer01": 30,
+      "Pyromancer02": 20,
+      "Pyromancer03": 9,
+      "Pyromancer04": 13,
+      "Pyromancer05": 18,
+      "Pyromancer06": 51,
+      "Pyromancer07": 8,
+      "Pyromancer08": 21,
+      "Pyromancer09": 8,
+      "Pyromancer10": 4,
+      "Rank": 60
+    },
+    "Raider": {
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 3,
+      "PromoteExp": 46,
+      "Raider01": 4,
+      "Raider02": 4,
+      "Raider03": 4,
+      "Raider04": 2,
+      "Raider05": 1,
+      "Raider06": 2,
+      "Raider07": 6,
+      "Raider09": 1,
+      "Rank": 35
+    },
+    "Scientist": {
+      "Awaken": 1,
+      "AwakenAbils": {
+        "Awaken_BuffAI_ATKSpeedHigh1": {
+          "AddTime": 44037.0620170486,
+          "Level": 1
+        },
+        "Awaken_GroundATK2": {
+          "AddTime": 44037.0620930903,
+          "Level": 1
+        },
+        "Awaken_RangedCompatibilityATK1": {
+          "AddTime": 44037.0621755903,
+          "Level": 1
+        },
+        "Awaken_Scientist_OnePotion1": {
+          "AddTime": 44037.0621266551,
+          "Level": 1
+        }
+      },
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 5,
+      "PromoteExp": 17,
+      "Rank": 47,
+      "Scientist01": 10,
+      "Scientist02": 3,
+      "Scientist03": 11,
+      "Scientist04": 14,
+      "Scientist05": 7,
+      "Scientist06": 2,
+      "Scientist07": 2,
+      "Scientist08": 1,
+      "Scientist09": 2,
+      "Scientist10": 1
+    },
+    "Scout": {
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 2,
+      "PromoteExp": 4,
+      "Rank": 30,
+      "Scout01": 2,
+      "Scout02": 1,
+      "Scout03": 1,
+      "Scout04": 1,
+      "Scout05": 1,
+      "Scout08": 9,
+      "Scout09": 5,
+      "Scout10": 1
+    },
+    "Shaman": {
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 5,
+      "PromoteExp": 44,
+      "Rank": 22,
+      "Shaman01": 3,
+      "Shaman02": 3,
+      "Shaman03": 4,
+      "Shaman04": 5,
+      "Shaman05": 2,
+      "Shaman06": 2,
+      "Shaman07": 2
+    },
+    "Sniper": {
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 3,
+      "PromoteExp": 99,
+      "Rank": 20,
+      "Sniper01": 2,
+      "Sniper02": 1,
+      "Sniper03": 1,
+      "Sniper04": 1,
+      "Sniper05": 1,
+      "Sniper06": 1,
+      "Sniper07": 1
+    },
+    "Striker": {
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 2,
+      "PromoteExp": 1,
+      "Rank": 30,
+      "Striker01": 2,
+      "Striker02": 1,
+      "Striker03": 7,
+      "Striker04": 7,
+      "Striker05": 2,
+      "Striker06": 1,
+      "Striker08": 1,
+      "Striker09": 2,
+      "Striker10": 1
+    },
+    "SwordMan": {
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 4,
+      "PromoteExp": 73,
+      "Rank": 21,
+      "SwordMan01": 3,
+      "SwordMan02": 4,
+      "SwordMan03": 4,
+      "SwordMan04": 2,
+      "SwordMan05": 5,
+      "SwordMan06": 1,
+      "SwordMan07": 1
+    },
+    "Thief": {
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 5,
+      "PromoteExp": 80,
+      "Rank": 21,
+      "Thief01": 1
+    },
+    "Tinker": {
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 3,
+      "PromoteExp": 30,
+      "Rank": 40,
+      "Tinker01": 20,
+      "Tinker02": 13,
+      "Tinker03": 8,
+      "Tinker04": 3,
+      "Tinker05": 4,
+      "Tinker06": 11,
+      "Tinker07": 4,
+      "Tinker08": 6,
+      "Tinker09": 3
+    },
+    "Warlock": {
+      "Level": 1,
+      "MaxLevel": 1000,
+      "Promote": 3,
+      "PromoteExp": 5,
+      "Rank": 20,
+      "Warlock01": 5,
+      "Warlock02": 4,
+      "Warlock05": 4,
+      "Warlock06": 2,
+      "Warlock07": 2,
+      "Warlock08": 1
+    }
+  },
+  "Modes": {
+    "NormalGame": {
+      "Elf": 99,
+      "FortuneTeller": 13.1,
+      "Preset1": {
+        "Holdings": {
+          "1": "FrostMage",
+          "2": "Corsair",
+          "4": "Enchanter",
+          "5": "Bard",
+          "6": "Scientist",
+          "8": "Librarian"
+        },
+        "Leader": "Corsair"
+      },
+      "Preset2": {
+        "Leader": "Fighter"
+      },
+      "Preset3": {
+        "Leader": "Fighter"
+      },
+      "SubMode": "Preset1"
+    },
+    "AwakenDungeon": {
+      "MagicAwakenDungeon": {
+        "Holdings": {
+          "1": "Archer",
+          "2": "Knight",
+          "3": "FrostMage"
+        }
+      },
+      "MeleeAwakenDungeon": {
+        "Holdings": {
+          "1": "Archer",
+          "3": "FrostMage"
+        }
+      },
+      "RangedAwakenDungeon": {
+        "Holdings": {
+          "1": "Archer"
+        }
+      },
+      "SubMode": "RangedAwakenDungeon"
+    },
+    "ClanRaid": {
+      "Default": {
+        "Holdings": {
+          "12": "Scientist"
+        }
+      }
+    },
+    "ExceedDungeon": {
+      "Default": {
+        "Holdings": {
+          "1": "Archer",
+          "2": "Knight",
+          "5": "Scientist",
+          "6": "Shaman",
+          "7": "Enchanter",
+          "9": "Bard",
+          "10": "FrostMage"
+        }
+      },
+      "SubMode": "Default"
+    },
+    "GearDungeon": {
+      "Default": {
+        "Holdings": {
+          "1": "FrostMage",
+          "2": "Raider",
+          "3": "Bard",
+          "4": "Shaman",
+          "6": "Enchanter"
+        }
+      },
+      "SubMode": "Default"
+    }
+  },
+  "ClearStage": 69,
+  "ClanCoinTraits": {
+    "Magic_ActiveBonusMagicPartyBossATKRate": 2,
+    "Magic_ActiveBonusMagicPartySplashATKRate": 3
+  }
+}

@@ -28,10 +28,12 @@
     "@nestjs/typeorm": "^7.1.0",
     "mongoose": "^5.9.23",
     "mssql": "^6.2.0",
+    "node-gzip": "^1.1.2",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^6.5.4",
-    "typeorm": "^0.2.25"
+    "typeorm": "^0.2.25",
+    "zlib": "^1.0.5"
   },
   "devDependencies": {
     "@nestjs/cli": "^7.0.0",
