@@ -1,6 +1,6 @@
 {
-  "Gold": 1.441916712423292e+36,
-  "SessionGold": 1.441916712423292e+36,
+  "Gold": 1.44191671242329e+36,
+  "SessionGold": 1.44191671242329e+36,
   "Heroes": {
     "Archer": {
       "Archer01": 9,
@@ -14,7 +14,7 @@
       "Level": 1,
       "MaxLevel": 1000,
       "Promote": 4,
-      "PromoteExp": 222,
+      "PromoteExp": 226,
       "Rank": 30
     },
     "Bard": {
@@ -140,7 +140,7 @@
       "Level": 1,
       "MaxLevel": 1100,
       "Promote": 3,
-      "PromoteExp": 23,
+      "PromoteExp": 37,
       "Rank": 57
     },
     "Fighter": {
@@ -201,7 +201,7 @@
       "Level": 1,
       "MaxLevel": 1000,
       "Promote": 5,
-      "PromoteExp": 63,
+      "PromoteExp": 72,
       "Rank": 30
     },
     "Lancer": {
@@ -275,7 +275,7 @@
       "Ninja08": 2,
       "Ninja09": 1,
       "Promote": 3,
-      "PromoteExp": 69,
+      "PromoteExp": 83,
       "Rank": 34
     },
     "Onmyoji": {
@@ -288,8 +288,8 @@
       "Onmyoji05": 2,
       "Onmyoji06": 2,
       "Onmyoji08": 2,
-      "Promote": 2,
-      "PromoteExp": 39,
+      "Promote": 3,
+      "PromoteExp": 29,
       "Rank": 30
     },
     "Paladin": {
@@ -302,7 +302,7 @@
       "Paladin06": 6,
       "Paladin07": 1,
       "Promote": 3,
-      "PromoteExp": 13,
+      "PromoteExp": 19,
       "Rank": 45
     },
     "Pirate": {
@@ -331,7 +331,7 @@
       "PlagueDoctor07": 4,
       "PlagueDoctor08": 3,
       "Promote": 2,
-      "PromoteExp": 39,
+      "PromoteExp": 41,
       "Rank": 30
     },
     "Puppet": {
@@ -371,7 +371,7 @@
       "Level": 1,
       "MaxLevel": 7000,
       "Promote": 5,
-      "PromoteExp": 80,
+      "PromoteExp": 85,
       "Pyromancer01": 30,
       "Pyromancer02": 20,
       "Pyromancer03": 9,
@@ -388,7 +388,7 @@
       "Level": 1,
       "MaxLevel": 1000,
       "Promote": 3,
-      "PromoteExp": 46,
+      "PromoteExp": 47,
       "Raider01": 4,
       "Raider02": 4,
       "Raider03": 4,
@@ -422,18 +422,18 @@
       "Level": 1,
       "MaxLevel": 1000,
       "Promote": 5,
-      "PromoteExp": 17,
-      "Rank": 47,
+      "PromoteExp": 23,
+      "Rank": 54,
       "Scientist01": 10,
-      "Scientist02": 3,
-      "Scientist03": 11,
+      "Scientist02": 18,
+      "Scientist03": 13,
       "Scientist04": 14,
-      "Scientist05": 7,
-      "Scientist06": 2,
+      "Scientist05": 8,
+      "Scientist06": 4,
       "Scientist07": 2,
-      "Scientist08": 1,
+      "Scientist08": 2,
       "Scientist09": 2,
-      "Scientist10": 1
+      "Scientist10": 5
     },
     "Scout": {
       "Level": 1,
@@ -467,8 +467,8 @@
     "Sniper": {
       "Level": 1,
       "MaxLevel": 1000,
-      "Promote": 3,
-      "PromoteExp": 99,
+      "Promote": 4,
+      "PromoteExp": 19,
       "Rank": 20,
       "Sniper01": 2,
       "Sniper02": 1,
@@ -482,7 +482,7 @@
       "Level": 1,
       "MaxLevel": 1000,
       "Promote": 2,
-      "PromoteExp": 1,
+      "PromoteExp": 4,
       "Rank": 30,
       "Striker01": 2,
       "Striker02": 1,
@@ -512,7 +512,7 @@
       "Level": 1,
       "MaxLevel": 1000,
       "Promote": 5,
-      "PromoteExp": 80,
+      "PromoteExp": 87,
       "Rank": 21,
       "Thief01": 1
     },
@@ -624,49 +624,44 @@
       "SubMode": "Default"
     }
   },
-  "ClearStage": 1047,
+  "ClearStage": 1085,
   "MimicScrollFragment": 0,
   "MimicScroll": 2,
   "Mana": {
     "CurrentValue": 242,
-    "LastTime": 44045.2214548032
+    "LastTime": 44047.5591623495
   },
   "Skills": {
     "Skill1": {
-      "Lock": "True",
-      "Level": 6
+      "Lock": "True"
     },
     "Skill2": {
-      "Lock": "True",
-      "Level": 0
+      "Lock": "True"
     },
     "Skill3": {
-      "Lock": "True",
-      "Level": 0
+      "Lock": "True"
     },
     "Skill4": {
-      "Lock": "True",
-      "Level": 30
+      "Lock": "True"
     },
     "Skill5": {
-      "Lock": "True",
-      "Level": 1
+      "Lock": "True"
     }
   },
-  "DeviceTime": 44045.2214548032,
+  "DeviceTime": 44047.5591627315,
   "Statistics": {
-    "AccumMonsterKillCount": 1011445,
-    "AccumBossKillCount": 17299,
-    "AccumMimicKillCount": 10253,
+    "AccumMonsterKillCount": 1014348,
+    "AccumBossKillCount": 17387,
+    "AccumMimicKillCount": 10291,
     "MaxSingleDamage": 2.67648767560578e+303,
-    "AccumCriticalCount": 312927,
-    "MaxGearClearStage": 155,
-    "AccumGoldDungeonStartCount": 84,
-    "AccumNormalGameClearCount": 78496,
+    "AccumCriticalCount": 316711,
+    "MaxGearClearStage": 157,
+    "AccumGoldDungeonStartCount": 88,
+    "AccumNormalGameClearCount": 78829,
     "Heroes": {
       "Fighter": {
         "MaxLevel": 1000,
-        "AccumTouchCount": 10473,
+        "AccumTouchCount": 10474,
         "AccumActivateFeverCount": 153
       },
       "Archer": {
