@@ -1,0 +1,3839 @@
+{
+  "Response": "True",
+  "Contents": {
+    "Time": 44042.7226613542,
+    "NewDeviceSync": "True",
+    "DeviceSync": {
+      "Heroes": {
+        "Archer": {
+          "Archer01": 9,
+          "Archer02": 5,
+          "Archer03": 11,
+          "Archer04": 10,
+          "Archer05": 4,
+          "Archer06": 8,
+          "Archer07": 4,
+          "Archer08": 1,
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 4,
+          "PromoteExp": 222,
+          "Rank": 30
+        },
+        "Bard": {
+          "Awaken": 1,
+          "AwakenAbils": {
+            "Awaken_Bard_SilenceRange1": {
+              "AddTime": 44022.7302691435,
+              "Level": 1
+            },
+            "Awaken_MagicCompatibilityATK2": {
+              "AddTime": 44042.6284834722,
+              "Level": 1
+            }
+          },
+          "Bard01": 5,
+          "Bard02": 13,
+          "Bard03": 8,
+          "Bard04": 4,
+          "Bard05": 1,
+          "Bard06": 7,
+          "Bard07": 3,
+          "Bard08": 3,
+          "Bard09": 6,
+          "Level": 28,
+          "MaxLevel": 1000,
+          "Promote": 3,
+          "PromoteExp": 55,
+          "Rank": 40
+        },
+        "Corsair": {
+          "Corsair01": 20,
+          "Corsair02": 10,
+          "Corsair03": 6,
+          "Corsair04": 6,
+          "Corsair05": 9,
+          "Corsair06": 4,
+          "Corsair08": 13,
+          "Corsair09": 8,
+          "Corsair10": 4,
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 2,
+          "PromoteExp": 4,
+          "Rank": 40
+        },
+        "CrossbowMan": {
+          "CrossbowMan01": 7,
+          "CrossbowMan02": 8,
+          "CrossbowMan03": 11,
+          "CrossbowMan04": 3,
+          "CrossbowMan05": 7,
+          "CrossbowMan06": 4,
+          "CrossbowMan07": 1,
+          "CrossbowMan08": 2,
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 3,
+          "PromoteExp": 19,
+          "Rank": 30
+        },
+        "Dragoon": {
+          "Dragoon01": 5,
+          "Dragoon02": 3,
+          "Dragoon03": 5,
+          "Dragoon04": 7,
+          "Dragoon05": 2,
+          "Dragoon06": 1,
+          "Dragoon08": 10,
+          "Dragoon09": 5,
+          "Dragoon10": 2,
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 2,
+          "PromoteExp": 42,
+          "Rank": 30
+        },
+        "Druid": {
+          "Druid01": 10,
+          "Druid02": 13,
+          "Druid03": 10,
+          "Druid04": 2,
+          "Druid05": 1,
+          "Druid06": 1,
+          "Druid08": 10,
+          "Druid09": 5,
+          "Druid10": 2,
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 2,
+          "PromoteExp": 19,
+          "Rank": 30
+        },
+        "Elf": {
+          "Elf01": 1,
+          "Elf02": 2,
+          "Elf03": 1,
+          "Elf04": 12,
+          "Elf06": 1,
+          "Elf07": 7,
+          "Elf08": 1,
+          "Elf09": 1,
+          "Elf10": 1,
+          "Level": 1,
+          "MaxLevel": 1100,
+          "Promote": 3,
+          "PromoteExp": 12,
+          "Rank": 45
+        },
+        "Enchanter": {
+          "Awaken": 1,
+          "Enchanter01": 13,
+          "Enchanter02": 2,
+          "Enchanter03": 5,
+          "Enchanter04": 12,
+          "Enchanter05": 1,
+          "Enchanter06": 2,
+          "Enchanter07": 10,
+          "Enchanter08": 3,
+          "Enchanter09": 1,
+          "Enchanter10": 2,
+          "Level": 1,
+          "MaxLevel": 1100,
+          "Promote": 3,
+          "PromoteExp": 23,
+          "Rank": 51
+        },
+        "Fighter": {
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 1,
+          "PromoteExp": 0,
+          "Rank": 1
+        },
+        "FortuneTeller": {
+          "FortuneTeller01": 10,
+          "FortuneTeller02": 8,
+          "FortuneTeller03": 7,
+          "FortuneTeller04": 4,
+          "FortuneTeller05": 5,
+          "FortuneTeller08": 3,
+          "FortuneTeller09": 2,
+          "FortuneTeller10": 2,
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 2,
+          "PromoteExp": 30,
+          "Rank": 30
+        },
+        "FrostMage": {
+          "FrostMage01": 8,
+          "FrostMage02": 8,
+          "FrostMage03": 13,
+          "FrostMage04": 16,
+          "FrostMage05": 8,
+          "FrostMage06": 3,
+          "FrostMage07": 6,
+          "FrostMage08": 3,
+          "FrostMage09": 2,
+          "Level": 1,
+          "MaxLevel": 1100,
+          "Promote": 5,
+          "PromoteExp": 120,
+          "Rank": 48
+        },
+        "HawkRider": {
+          "HawkRider01": 1,
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 3,
+          "PromoteExp": 5,
+          "Rank": 23
+        },
+        "Knight": {
+          "Knight01": 25,
+          "Knight02": 8,
+          "Knight03": 11,
+          "Knight04": 4,
+          "Knight05": 9,
+          "Knight06": 1,
+          "Knight07": 11,
+          "Knight08": 2,
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 5,
+          "PromoteExp": 63,
+          "Rank": 30
+        },
+        "Lancer": {
+          "Lancer01": 5,
+          "Lancer02": 1,
+          "Lancer03": 2,
+          "Lancer05": 1,
+          "Lancer06": 1,
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 4,
+          "PromoteExp": 43,
+          "Rank": 30
+        },
+        "Legion": {
+          "Legion01": 2,
+          "Legion02": 2,
+          "Legion03": 2,
+          "Legion04": 1,
+          "Legion08": 2,
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 2,
+          "PromoteExp": 6,
+          "Rank": 30
+        },
+        "Librarian": {
+          "Level": 1,
+          "Librarian01": 7,
+          "Librarian02": 8,
+          "Librarian03": 8,
+          "Librarian04": 5,
+          "Librarian05": 4,
+          "Librarian06": 6,
+          "Librarian07": 1,
+          "Librarian08": 3,
+          "MaxLevel": 1000,
+          "Promote": 4,
+          "PromoteExp": 38,
+          "Rank": 26
+        },
+        "Monk": {
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Monk01": 1,
+          "Promote": 2,
+          "PromoteExp": 44,
+          "Rank": 21
+        },
+        "Necromancer": {
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Necromancer01": 12,
+          "Necromancer02": 1,
+          "Necromancer03": 7,
+          "Necromancer04": 5,
+          "Promote": 3,
+          "PromoteExp": 2,
+          "Rank": 30
+        },
+        "Ninja": {
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Ninja01": 10,
+          "Ninja02": 11,
+          "Ninja03": 10,
+          "Ninja04": 10,
+          "Ninja05": 9,
+          "Ninja06": 6,
+          "Ninja07": 5,
+          "Ninja08": 2,
+          "Ninja09": 1,
+          "Promote": 3,
+          "PromoteExp": 53,
+          "Rank": 34
+        },
+        "Onmyoji": {
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Onmyoji01": 4,
+          "Onmyoji02": 12,
+          "Onmyoji03": 5,
+          "Onmyoji04": 3,
+          "Onmyoji05": 2,
+          "Onmyoji06": 2,
+          "Onmyoji08": 2,
+          "Promote": 2,
+          "PromoteExp": 39,
+          "Rank": 30
+        },
+        "Paladin": {
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Paladin01": 10,
+          "Paladin02": 15,
+          "Paladin04": 1,
+          "Paladin05": 3,
+          "Paladin06": 6,
+          "Paladin07": 1,
+          "Promote": 2,
+          "PromoteExp": 63,
+          "Rank": 45
+        },
+        "Pirate": {
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Pirate01": 5,
+          "Pirate02": 2,
+          "Pirate03": 6,
+          "Pirate04": 2,
+          "Pirate05": 2,
+          "Pirate06": 1,
+          "Pirate08": 1,
+          "Promote": 3,
+          "PromoteExp": 90,
+          "Rank": 25
+        },
+        "PlagueDoctor": {
+          "Level": 1,
+          "MaxLevel": 1000,
+          "PlagueDoctor01": 5,
+          "PlagueDoctor02": 8,
+          "PlagueDoctor03": 4,
+          "PlagueDoctor04": 1,
+          "PlagueDoctor05": 3,
+          "PlagueDoctor06": 6,
+          "PlagueDoctor07": 4,
+          "PlagueDoctor08": 3,
+          "Promote": 2,
+          "PromoteExp": 34,
+          "Rank": 30
+        },
+        "Puppet": {
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 4,
+          "PromoteExp": 119,
+          "Puppet01": 11,
+          "Puppet02": 3,
+          "Puppet03": 4,
+          "Puppet04": 1,
+          "Puppet05": 1,
+          "Puppet06": 4,
+          "Puppet07": 1,
+          "Rank": 20
+        },
+        "Pyromancer": {
+          "Awaken": 1,
+          "AwakenAbils": {
+            "Awaken_ATK2": {
+              "AddTime": 44017.1797982639,
+              "Level": 2
+            },
+            "Awaken_MagicCompatibilityATK3": {
+              "AddTime": 44012.5682752778,
+              "Level": 2
+            },
+            "Awaken_Pyromancer_MeteorFallATK3": {
+              "AddTime": 44037.0582261111,
+              "Level": 6
+            },
+            "Awaken_SplashATK2": {
+              "AddTime": 44013.4883851505,
+              "Level": 1
+            }
+          },
+          "Level": 5000,
+          "MaxLevel": 7000,
+          "Promote": 5,
+          "PromoteExp": 74,
+          "Pyromancer01": 27,
+          "Pyromancer02": 18,
+          "Pyromancer03": 9,
+          "Pyromancer04": 11,
+          "Pyromancer05": 16,
+          "Pyromancer06": 46,
+          "Pyromancer07": 7,
+          "Pyromancer08": 17,
+          "Pyromancer09": 8,
+          "Pyromancer10": 3,
+          "Rank": 55
+        },
+        "Raider": {
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 3,
+          "PromoteExp": 37,
+          "Raider01": 4,
+          "Raider02": 4,
+          "Raider03": 4,
+          "Raider04": 2,
+          "Raider05": 1,
+          "Raider06": 2,
+          "Raider07": 6,
+          "Raider09": 1,
+          "Rank": 35
+        },
+        "Scientist": {
+          "Awaken": 1,
+          "AwakenAbils": {
+            "Awaken_BuffAI_ATKSpeedHigh1": {
+              "AddTime": 44037.0620170486,
+              "Level": 1
+            },
+            "Awaken_GroundATK2": {
+              "AddTime": 44037.0620930903,
+              "Level": 1
+            },
+            "Awaken_RangedCompatibilityATK1": {
+              "AddTime": 44037.0621755903,
+              "Level": 1
+            },
+            "Awaken_Scientist_OnePotion1": {
+              "AddTime": 44037.0621266551,
+              "Level": 1
+            }
+          },
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 5,
+          "PromoteExp": 17,
+          "Rank": 47,
+          "Scientist01": 10,
+          "Scientist02": 3,
+          "Scientist03": 11,
+          "Scientist04": 14,
+          "Scientist05": 7,
+          "Scientist06": 2,
+          "Scientist07": 2,
+          "Scientist08": 1,
+          "Scientist09": 2,
+          "Scientist10": 1
+        },
+        "Scout": {
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 2,
+          "PromoteExp": 4,
+          "Rank": 30,
+          "Scout01": 2,
+          "Scout02": 1,
+          "Scout03": 1,
+          "Scout04": 1,
+          "Scout05": 1,
+          "Scout08": 9,
+          "Scout09": 5,
+          "Scout10": 1
+        },
+        "Shaman": {
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 5,
+          "PromoteExp": 44,
+          "Rank": 22,
+          "Shaman01": 3,
+          "Shaman02": 3,
+          "Shaman03": 4,
+          "Shaman04": 5,
+          "Shaman05": 2,
+          "Shaman06": 2,
+          "Shaman07": 2
+        },
+        "Sniper": {
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 3,
+          "PromoteExp": 99,
+          "Rank": 20,
+          "Sniper01": 2,
+          "Sniper02": 1,
+          "Sniper03": 1,
+          "Sniper04": 1,
+          "Sniper05": 1,
+          "Sniper06": 1,
+          "Sniper07": 1
+        },
+        "Striker": {
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 2,
+          "PromoteExp": 1,
+          "Rank": 30,
+          "Striker01": 2,
+          "Striker02": 1,
+          "Striker03": 7,
+          "Striker04": 7,
+          "Striker05": 2,
+          "Striker06": 1,
+          "Striker08": 1,
+          "Striker09": 2,
+          "Striker10": 1
+        },
+        "SwordMan": {
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 4,
+          "PromoteExp": 67,
+          "Rank": 21,
+          "SwordMan01": 3,
+          "SwordMan02": 4,
+          "SwordMan03": 4,
+          "SwordMan04": 2,
+          "SwordMan05": 5,
+          "SwordMan06": 1,
+          "SwordMan07": 1
+        },
+        "Thief": {
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 5,
+          "PromoteExp": 80,
+          "Rank": 21,
+          "Thief01": 1
+        },
+        "Tinker": {
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 3,
+          "PromoteExp": 30,
+          "Rank": 40,
+          "Tinker01": 20,
+          "Tinker02": 13,
+          "Tinker03": 8,
+          "Tinker04": 3,
+          "Tinker05": 4,
+          "Tinker06": 11,
+          "Tinker07": 4,
+          "Tinker08": 6,
+          "Tinker09": 3
+        },
+        "Warlock": {
+          "Level": 1,
+          "MaxLevel": 1000,
+          "Promote": 3,
+          "PromoteExp": 5,
+          "Rank": 20,
+          "Warlock01": 5,
+          "Warlock02": 4,
+          "Warlock05": 4,
+          "Warlock06": 2,
+          "Warlock07": 2,
+          "Warlock08": 1
+        }
+      },
+      "Gold": 1252826106.081012,
+      "ClearStage": 129,
+      "ClickerPoint": 80,
+      "ClickerPointStage": 120,
+      "TraitPoint": 3546,
+      "TraitPointStage": 8
+    },
+    "Modes": {
+      "NormalGame": {
+        "Elf": 35,
+        "FortuneTeller": 13.1,
+        "Preset1": {
+          "Holdings": {
+            "1": "Pyromancer",
+            "2": "Bard",
+            "3": "Enchanter",
+            "6": "Scientist",
+            "8": "Librarian"
+          },
+          "Leader": "Pyromancer",
+          "Tinker": {
+            "1": "TurretBuff"
+          }
+        },
+        "Preset2": {
+          "Leader": "Fighter"
+        },
+        "Preset3": {
+          "Leader": "Fighter"
+        },
+        "SubMode": "Preset1"
+      },
+      "AwakenDungeon": {
+        "MagicAwakenDungeon": {
+          "Holdings": {
+            "1": "Enchanter",
+            "3": "Bard",
+            "4": "Scientist"
+          }
+        },
+        "MeleeAwakenDungeon": {
+          "Holdings": {
+            "1": "Enchanter",
+            "3": "Bard",
+            "4": "Scientist"
+          }
+        },
+        "RangedAwakenDungeon": {
+          "Holdings": {
+            "3": "Bard",
+            "4": "Scientist"
+          }
+        },
+        "SubMode": "RangedAwakenDungeon"
+      },
+      "ClanRaid": {
+        "Default": {
+          "Holdings": {
+            "12": "Bard"
+          }
+        }
+      },
+      "ExceedDungeon": {
+        "Default": {
+          "Holdings": {
+            "1": "Librarian",
+            "3": "Druid",
+            "5": "Scientist",
+            "6": "Shaman",
+            "7": "Bard",
+            "9": "Enchanter"
+          }
+        },
+        "SubMode": "Default"
+      },
+      "GearDungeon": {
+        "Default": {
+          "Holdings": {
+            "1": "Scientist",
+            "2": "Raider",
+            "3": "Bard",
+            "4": "Shaman",
+            "5": "Pyromancer",
+            "6": "Enchanter"
+          }
+        },
+        "SubMode": "Default"
+      }
+    },
+    "AwakenAbilLocks": {
+      "Awaken_Bard_SilenceRange1": "True",
+      "Awaken_MagicCompatibilityATK3": "True",
+      "Awaken_Pyromancer_MeteorFallATK3": "True",
+      "Awaken_SplashATK2": "True"
+    },
+    "PauseTime": 44042.7224773032,
+    "Name": "卡卡羅特",
+    "NicknameChangeCount": 1,
+    "ClickerJob": "DragonRider",
+    "MaxClearStage": 6379,
+    "PlayerCode": "MM9E6K",
+    "Medal": 3623778530.20519,
+    "Gem": 26155,
+    "GearStone": 107993,
+    "RankingCoin": 2235,
+    "ClanCoin": 375,
+    "ExceedStone": 1831,
+    "RankingEndTime": 44042.9895833333,
+    "DailyADRewardCount": 4,
+    "DailyADRewardCountResetTime": 44039,
+    "Mana": {
+      "CurrentValue": 242,
+      "LastTime": 44042.7224260301
+    },
+    "Skills": {
+      "Skill1": {
+        "Lock": "True",
+        "Level": 6
+      },
+      "Skill2": {
+        "Lock": "True",
+        "Level": 0
+      },
+      "Skill3": {
+        "Lock": "True",
+        "Level": 0
+      },
+      "Skill4": {
+        "Lock": "True",
+        "Level": 30
+      },
+      "Skill5": {
+        "Lock": "True",
+        "Level": 1
+      }
+    },
+    "MeleeAwakenStone": 1822,
+    "RangedAwakenStone": 1271,
+    "MagicAwakenStone": 1256,
+    "MimicScrollFragment": 17,
+    "MimicScroll": 1,
+    "Session": 86,
+    "ClickerPoint": 80,
+    "TraitPoint": 3546,
+    "ClanCoinTraits": {
+      "Magic_ActiveBonusMagicPartyBossATKRate": 2,
+      "Magic_ActiveBonusMagicPartySplashATKRate": 3
+    },
+    "Tutorials": {
+      "AbilityDesc": "True",
+      "AbilityUp": "True",
+      "AchievementButton": "True",
+      "Achievements": "True",
+      "AttackByTouch": "True",
+      "AwakeFighter": "True",
+      "Boss": "True",
+      "BuyJob": "True",
+      "CanFever": "True",
+      "CanRanking": "True",
+      "ChangeJob": "True",
+      "Compatibility": "True",
+      "DailyAchievements": "True",
+      "DailyRewardEnter": "True",
+      "DailyRewardList": "True",
+      "DailyRewardNewList": "True",
+      "DailyRewardNewReward": "True",
+      "DailyRewardNewRewardDesc": "True",
+      "DailyRewardNewTab": "True",
+      "DailyRewardReward": "True",
+      "DailyRewardRewardDesc": "True",
+      "DailyRewardRightPanel": "True",
+      "DailyRewardTab": "True",
+      "Deploy": "True",
+      "DeployEnd": "True",
+      "DeployHero": "True",
+      "FailCondition": "True",
+      "FailStage": "True",
+      "GachaClose": "True",
+      "GachaStoreButton": "True",
+      "GachaStoreGemHero": "True",
+      "GachaStoreGemHeroDesc": "True",
+      "GachaStoreHeroes": "True",
+      "GachaStoreHeroesDesc": "True",
+      "GachaStoreTab": "True",
+      "GearDungeon": "True",
+      "GearDungeonDeploy": "True",
+      "GearDungeonDungeons": "True",
+      "GearDungeonEnter": "True",
+      "GearDungeonRightPanel": "True",
+      "GearDungeonSelect": "True",
+      "GearDungeonTouchBoost": "True",
+      "GearInfoDetail": "True",
+      "GearInfoGears": "True",
+      "GearInfoRightPanel": "True",
+      "GoldDungeonAppear": "True",
+      "GoldDungeonDungeons": "True",
+      "GoldDungeonEnter": "True",
+      "GoldDungeonFever": "True",
+      "GoldDungeonRightPanel": "True",
+      "GoldDungeonTime": "True",
+      "HeroAchievements": "True",
+      "HeroAchievementsReward": "True",
+      "HeroInfoClose": "True",
+      "HeroScroll1": "True",
+      "HireNewHero": "True",
+      "Intro1": "True",
+      "Intro10": "True",
+      "Intro11": "True",
+      "Intro12": "True",
+      "Intro2": "True",
+      "Intro3": "True",
+      "Intro4": "True",
+      "Intro5": "True",
+      "Intro6": "True",
+      "Intro7": "True",
+      "Intro8": "True",
+      "Intro9": "True",
+      "JobClickerInfo": "True",
+      "JobDesc": "True",
+      "JoinNewHeroFighter": "True",
+      "LeaderDesc": "True",
+      "LeaderHeroInfo": "True",
+      "LeaderKnightDesc": "True",
+      "LevelUp": "True",
+      "MeleeAttackCondition": "True",
+      "MyPage": "True",
+      "Prestige2X": "True",
+      "PrestigeButton": "True",
+      "Promote": "True",
+      "PromoteHeroInfoInfo": "True",
+      "PromoteInfoButton": "True",
+      "RangedAttackCondition": "True",
+      "RankDesc": "True",
+      "RankHeroes": "True",
+      "RankHeroInfo": "True",
+      "RankUp": "True",
+      "SelectHero": "True",
+      "SkillClickerInfo": "True",
+      "SkillClickerTraitInfo": "True",
+      "SkillLearn": "True",
+      "SkillSelect": "True",
+      "SwapDeployHero": "True",
+      "SwapDesc": "True",
+      "SwapSelectHero": "True",
+      "UseFever": "True",
+      "UseSkill": "True",
+      "VictoryCondition": "True"
+    },
+    "HeroesStore": {
+      "Free": {
+        "HeroBox1": {
+          "CanFreeTime": 44042.3252052083,
+          "FreeCount": 3,
+          "ResetTime": 44043
+        }
+      },
+      "Heroes": {
+        "Enchanter": {
+          "BuyCount": 4,
+          "Slot": 1,
+          "Type": "Scroll"
+        },
+        "Lancer": {
+          "BuyCount": 0,
+          "Slot": 2,
+          "Type": "Scroll"
+        },
+        "Thief": {
+          "BuyCount": 0,
+          "Slot": 0,
+          "Type": "Scroll"
+        }
+      },
+      "RefreshCount": 0,
+      "ResetTime": 44043
+    },
+    "DailyReward": {
+      "DailyReward006": {
+        "LastAquireIndex": 8
+      }
+    },
+    "DailyQuest": {
+      "List": {
+        "AwakenDungeonClear": "End",
+        "BossKill": "End",
+        "DailyQuestClear": "End",
+        "FellowshipSend": "End",
+        "GearDungeonClear": "End",
+        "GoldDungeonClear": "End",
+        "JoinLeague": "End",
+        "MonsterKill": "End",
+        "NormalGameClear": "End"
+      },
+      "CheckFrom": {
+        "AwakenDungeonClear": 126,
+        "BossKill": 16741,
+        "DailyQuestClear": 283,
+        "FellowshipSend": 153,
+        "GearDungeonClear": 780,
+        "GoldDungeonClear": 75,
+        "JoinLeague": 34,
+        "MonsterKill": 983690,
+        "NormalGameClear": 76010
+      },
+      "RefreshTime": 44043
+    },
+    "GearDungeon": {
+      "GearKey": 2,
+      "GearDungeon": {
+        "BuyKeyCount": 1,
+        "GearClearStage": 128,
+        "LastBuyKeyDate": 44020,
+        "LastChargeTime": 44042.701195081
+      }
+    },
+    "AwakenDungeon": {
+      "AwakenTicket": 0,
+      "AwakenDungeon": {
+        "BuyTicketCount": 1,
+        "LastBuyTicketDate": 44042,
+        "LastChargeTime": 44042.0831254167,
+        "MagicAwakenDungeon": {
+          "AwakenClearStage": 18
+        },
+        "MeleeAwakenDungeon": {
+          "AwakenClearStage": 5
+        },
+        "RangedAwakenDungeon": {
+          "AwakenClearStage": 16
+        }
+      }
+    },
+    "ExceedDungeon": {
+      "ExceedKey": 0,
+      "ExceedDungeon": {
+        "ExceedClearStage": 11,
+        "LastChargeTime": 44042.0803199884
+      }
+    },
+    "Statistics": {
+      "AccumFirstLinkCount": 1,
+      "AccumHireHeroCount": 34,
+      "AccumMonsterKillCount": 990558,
+      "AccumBossKillCount": 16869,
+      "AccumMimicKillCount": 10035,
+      "MaxSingleDamage": 1.06169255917842e+262,
+      "AccumCriticalCount": 298097,
+      "AccumStartADBuffCount": 323,
+      "MaxGearClearStage": 128,
+      "AccumGoldDungeonStartCount": 80,
+      "MaxClearStage": 3789,
+      "AccumPrestigeCount": 85,
+      "MaxGearCount": 178,
+      "AccumDailyQuestAllClearCount": 34,
+      "AccumChangeNicknameCount": 1,
+      "Heroes": {
+        "Fighter": {
+          "MaxLevel": 1000,
+          "MaxClickerJob": 5,
+          "AccumTouchCount": 10457,
+          "AccumActivateFeverCount": 152,
+          "MaxTraitPoint": 6564
+        },
+        "Archer": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 30,
+          "AccumAbilityUpCount": 52,
+          "MaxPromote": 4
+        },
+        "Knight": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 30,
+          "AccumAbilityUpCount": 71,
+          "MaxPromote": 5
+        },
+        "FrostMage": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 48,
+          "AccumAbilityUpCount": 67,
+          "MaxPromote": 5
+        },
+        "Thief": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 21,
+          "AccumAbilityUpCount": 1,
+          "MaxPromote": 5
+        },
+        "Scientist": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 47,
+          "AccumAbilityUpCount": 53,
+          "MaxPromote": 5
+        },
+        "Shaman": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 22,
+          "AccumAbilityUpCount": 21,
+          "MaxPromote": 5
+        },
+        "Pyromancer": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 694,
+          "MaxRankUp": 55,
+          "AccumAbilityUpCount": 162,
+          "MaxPromote": 5
+        },
+        "Lancer": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 30,
+          "AccumAbilityUpCount": 10,
+          "MaxPromote": 4
+        },
+        "Sniper": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 20,
+          "AccumAbilityUpCount": 8,
+          "MaxPromote": 3
+        },
+        "SwordMan": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 21,
+          "AccumAbilityUpCount": 20,
+          "MaxPromote": 4
+        },
+        "Puppet": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 20,
+          "AccumAbilityUpCount": 25,
+          "MaxPromote": 4
+        },
+        "Librarian": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 26,
+          "AccumAbilityUpCount": 42,
+          "MaxPromote": 4
+        },
+        "Elf": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 45,
+          "AccumAbilityUpCount": 27,
+          "MaxPromote": 3
+        },
+        "Ninja": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 34,
+          "AccumAbilityUpCount": 64,
+          "MaxPromote": 3
+        },
+        "Enchanter": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 51,
+          "AccumAbilityUpCount": 51,
+          "MaxPromote": 3
+        },
+        "Raider": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 35,
+          "AccumAbilityUpCount": 24,
+          "MaxPromote": 3
+        },
+        "Pirate": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 25,
+          "AccumAbilityUpCount": 19,
+          "MaxPromote": 3
+        },
+        "PlagueDoctor": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 30,
+          "AccumAbilityUpCount": 34,
+          "MaxPromote": 2
+        },
+        "CrossbowMan": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 30,
+          "AccumAbilityUpCount": 43,
+          "MaxPromote": 3
+        },
+        "Bard": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 40,
+          "AccumAbilityUpCount": 50,
+          "MaxPromote": 3
+        },
+        "Necromancer": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 30,
+          "AccumAbilityUpCount": 25,
+          "MaxPromote": 3
+        },
+        "Onmyoji": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 30,
+          "AccumAbilityUpCount": 30,
+          "MaxPromote": 2
+        },
+        "Tinker": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 40,
+          "AccumAbilityUpCount": 72,
+          "MaxPromote": 3
+        },
+        "Warlock": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 20,
+          "AccumAbilityUpCount": 18,
+          "MaxPromote": 3
+        },
+        "Corsair": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 40,
+          "AccumAbilityUpCount": 80,
+          "MaxPromote": 2
+        },
+        "Paladin": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 45,
+          "AccumAbilityUpCount": 36,
+          "MaxPromote": 2
+        },
+        "Druid": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 30,
+          "AccumAbilityUpCount": 54,
+          "MaxPromote": 2
+        },
+        "FortuneTeller": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 30,
+          "AccumAbilityUpCount": 41,
+          "MaxPromote": 2
+        },
+        "Monk": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 21,
+          "AccumAbilityUpCount": 1,
+          "MaxPromote": 2
+        },
+        "HawkRider": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 23,
+          "AccumAbilityUpCount": 1,
+          "MaxPromote": 3
+        },
+        "Legion": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 30,
+          "AccumAbilityUpCount": 9,
+          "MaxPromote": 2
+        },
+        "Scout": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 30,
+          "AccumAbilityUpCount": 21,
+          "MaxPromote": 2
+        },
+        "Dragoon": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 30,
+          "AccumAbilityUpCount": 40,
+          "MaxPromote": 2
+        },
+        "Striker": {
+          "AccumHireHeroCount": 1,
+          "MaxLevel": 1000,
+          "MaxRankUp": 30,
+          "AccumAbilityUpCount": 24,
+          "MaxPromote": 2
+        }
+      },
+      "AccumNormalGameClearCount": 76583,
+      "AccumGearDungeonClearCount": 802,
+      "AccumAwakenDungeonClearCount": 132,
+      "AccumGoldDungeonClearCount": 77,
+      "AccumJoinLeagueCount": 35,
+      "AccumFellowshipSendCount": 157,
+      "AccumDailyQuestClearCount": 292
+    },
+    "Achievements": {
+      "HeroAchievements": {
+        "Archer": {
+          "AccumAbilityUpCount": {
+            "Level": 10
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 3
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Bard": {
+          "AccumAbilityUpCount": {
+            "Level": 10
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 2
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Corsair": {
+          "AccumAbilityUpCount": {
+            "Level": 10
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 1
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "CrossbowMan": {
+          "AccumAbilityUpCount": {
+            "Level": 10
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 2
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Dragoon": {
+          "AccumAbilityUpCount": {
+            "Level": 10
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 1
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Druid": {
+          "AccumAbilityUpCount": {
+            "Level": 10
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 1
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Elf": {
+          "AccumAbilityUpCount": {
+            "Level": 6
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 2
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Enchanter": {
+          "AccumAbilityUpCount": {
+            "Level": 10
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 2
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Fighter": {
+          "AccumActivateFeverCount": {
+            "Level": 3
+          },
+          "AccumTouchCount": {
+            "Level": 3
+          },
+          "MaxClickerJob": {
+            "Level": 5
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxTraitPoint": {
+            "Level": 30
+          }
+        },
+        "FortuneTeller": {
+          "AccumAbilityUpCount": {
+            "Level": 10
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 1
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "FrostMage": {
+          "AccumAbilityUpCount": {
+            "Level": 10
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 4
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "HawkRider": {
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 2
+          },
+          "MaxRankUp": {
+            "Level": 11
+          }
+        },
+        "Knight": {
+          "AccumAbilityUpCount": {
+            "Level": 10
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 4
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Lancer": {
+          "AccumAbilityUpCount": {
+            "Level": 2
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 3
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Legion": {
+          "AccumAbilityUpCount": {
+            "Level": 2
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 1
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Librarian": {
+          "AccumAbilityUpCount": {
+            "Level": 10
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 3
+          },
+          "MaxRankUp": {
+            "Level": 13
+          }
+        },
+        "Monk": {
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 1
+          },
+          "MaxRankUp": {
+            "Level": 10
+          }
+        },
+        "Necromancer": {
+          "AccumAbilityUpCount": {
+            "Level": 6
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 2
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Ninja": {
+          "AccumAbilityUpCount": {
+            "Level": 10
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 2
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Onmyoji": {
+          "AccumAbilityUpCount": {
+            "Level": 7
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 1
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Paladin": {
+          "AccumAbilityUpCount": {
+            "Level": 9
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 1
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Pirate": {
+          "AccumAbilityUpCount": {
+            "Level": 4
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 2
+          },
+          "MaxRankUp": {
+            "Level": 12
+          }
+        },
+        "PlagueDoctor": {
+          "AccumAbilityUpCount": {
+            "Level": 8
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 1
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Puppet": {
+          "AccumAbilityUpCount": {
+            "Level": 6
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 3
+          },
+          "MaxRankUp": {
+            "Level": 10
+          }
+        },
+        "Pyromancer": {
+          "AccumAbilityUpCount": {
+            "Level": 10
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 15
+          },
+          "MaxPromote": {
+            "Level": 4
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Raider": {
+          "AccumAbilityUpCount": {
+            "Level": 6
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 2
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Scientist": {
+          "AccumAbilityUpCount": {
+            "Level": 10
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 4
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Scout": {
+          "AccumAbilityUpCount": {
+            "Level": 5
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 1
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Shaman": {
+          "AccumAbilityUpCount": {
+            "Level": 5
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 4
+          },
+          "MaxRankUp": {
+            "Level": 11
+          }
+        },
+        "Sniper": {
+          "AccumAbilityUpCount": {
+            "Level": 2
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 2
+          },
+          "MaxRankUp": {
+            "Level": 10
+          }
+        },
+        "Striker": {
+          "AccumAbilityUpCount": {
+            "Level": 6
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 1
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "SwordMan": {
+          "AccumAbilityUpCount": {
+            "Level": 5
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 3
+          },
+          "MaxRankUp": {
+            "Level": 10
+          }
+        },
+        "Thief": {
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 4
+          },
+          "MaxRankUp": {
+            "Level": 10
+          }
+        },
+        "Tinker": {
+          "AccumAbilityUpCount": {
+            "Level": 10
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 2
+          },
+          "MaxRankUp": {
+            "Level": 15
+          }
+        },
+        "Warlock": {
+          "AccumAbilityUpCount": {
+            "Level": 4
+          },
+          "AccumHireHeroCount": {
+            "Level": 1
+          },
+          "MaxLevel": {
+            "Level": 22
+          },
+          "MaxPromote": {
+            "Level": 2
+          },
+          "MaxRankUp": {
+            "Level": 10
+          }
+        }
+      },
+      "Achievements": {
+        "AccumBossKillCount": {
+          "Level": 4
+        },
+        "AccumChangeNicknameCount": {
+          "Level": 1
+        },
+        "AccumCriticalCount": {
+          "Level": 5
+        },
+        "AccumDailyQuestAllClearCount": {
+          "Level": 6
+        },
+        "AccumFirstLinkCount": {
+          "Level": 1
+        },
+        "AccumGoldDungeonStartCount": {
+          "Level": 5
+        },
+        "AccumHireHeroCount": {
+          "Level": 6
+        },
+        "AccumMimicKillCount": {
+          "Level": 4
+        },
+        "AccumMonsterKillCount": {
+          "Level": 5
+        },
+        "AccumPrestigeCount": {
+          "Level": 7
+        },
+        "AccumStartADBuffCount": {
+          "Level": 3
+        },
+        "MaxClearStage": {
+          "Level": 30
+        },
+        "MaxGearClearStage": {
+          "Level": 12
+        },
+        "MaxGearCount": {
+          "Level": 25
+        },
+        "MaxSingleDamage": {
+          "Level": 10
+        }
+      }
+    },
+    "UpgradeStore": {
+      "GoldRate1": {
+        "Level": 1
+      },
+      "HeroLevelAddValue": {
+        "Level": 0
+      },
+      "MedalBonus": {
+        "Level": 34
+      },
+      "MedalRate1": {
+        "Level": 1
+      },
+      "MonsterLevelReduceBonus": {
+        "Level": 25
+      },
+      "WaveReduceRate": {
+        "Level": 25
+      }
+    },
+    "ItemStore": {
+      "ADGameSpeed2X": {
+        "CanADTime": 44039.545817662
+      },
+      "ADGrindingGold": {
+        "CanADTime": 44030.3470207523
+      },
+      "GameSpeed3X": {
+        "EndTime": 44014.3444486921
+      }
+    },
+    "ItemBuffs": {
+      "ATKRate2X": {
+        "EndTime": 44040.1095485995
+      },
+      "GameSpeed2X": {
+        "EndTime": 44039.545817662
+      },
+      "GameSpeed3X": {
+        "EndTime": 44042.6206727083
+      },
+      "GoldBonus2X": {
+        "EndTime": 44040.6733245023
+      }
+    },
+    "Gears": {
+      "Gear_Common001": {
+        "Exp": 594,
+        "Level": 9
+      },
+      "Gear_Common002": {
+        "Exp": 656,
+        "Level": 5
+      },
+      "Gear_Common003": {
+        "Exp": 458,
+        "Level": 10
+      },
+      "Gear_Common004": {
+        "Exp": 349,
+        "Level": 10
+      },
+      "Gear_Common005": {
+        "Exp": 589,
+        "Level": 4
+      },
+      "Gear_Common006": {
+        "Exp": 352,
+        "Level": 11
+      },
+      "Gear_Common007": {
+        "Exp": 371,
+        "Level": 10
+      },
+      "Gear_Common008": {
+        "Exp": 401,
+        "Level": 9
+      },
+      "Gear_Common009": {
+        "Exp": 163,
+        "Level": 10
+      },
+      "Gear_Common010": {
+        "Exp": 459,
+        "Level": 6
+      },
+      "Gear_Common011": {
+        "Exp": 265,
+        "Level": 11
+      },
+      "Gear_Common012": {
+        "Exp": 471,
+        "Level": 10
+      },
+      "Gear_Common013": {
+        "Exp": 739,
+        "Level": 6
+      },
+      "Gear_Common014": {
+        "Exp": 512,
+        "Level": 4
+      },
+      "Gear_Common015": {
+        "Exp": 482,
+        "Level": 2
+      },
+      "Gear_Common016": {
+        "Exp": 265,
+        "Level": 11
+      },
+      "Gear_Common017": {
+        "Exp": 592,
+        "Level": 1
+      },
+      "Gear_Common018": {
+        "Exp": 414,
+        "Level": 7
+      },
+      "Gear_Common019": {
+        "Exp": 469,
+        "Level": 1
+      },
+      "Gear_Common020": {
+        "Exp": 422,
+        "Level": 5
+      },
+      "Gear_Common021": {
+        "Exp": 251,
+        "Level": 6
+      },
+      "Gear_Common022": {
+        "Exp": 202,
+        "Level": 1
+      },
+      "Gear_Common023": {
+        "Exp": 132,
+        "Level": 1
+      },
+      "Gear_Common024": {
+        "Exp": 64,
+        "Level": 1
+      },
+      "Gear_Common025": {
+        "Exp": 75,
+        "Level": 1
+      },
+      "Gear_Common026": {
+        "Exp": 12,
+        "Level": 1
+      },
+      "Gear_Common027": {
+        "Exp": 31,
+        "Level": 1
+      },
+      "Gear_Common028": {
+        "Exp": 596,
+        "Level": 5
+      },
+      "Gear_Common029": {
+        "Exp": 38,
+        "Level": 1
+      },
+      "Gear_Common030": {
+        "Exp": 179,
+        "Level": 1
+      },
+      "Gear_Common031": {
+        "Exp": 66,
+        "Level": 1
+      },
+      "Gear_Common032": {
+        "Exp": 89,
+        "Level": 1
+      },
+      "Gear_Common033": {
+        "Exp": 289,
+        "Level": 1
+      },
+      "Gear_Common034": {
+        "Exp": 112,
+        "Level": 1
+      },
+      "Gear_Common035": {
+        "Exp": 56,
+        "Level": 1
+      },
+      "Gear_Common036": {
+        "Exp": 79,
+        "Level": 1
+      },
+      "Gear_Epic001": {
+        "Exp": 39,
+        "Level": 6
+      },
+      "Gear_Epic002": {
+        "Exp": 26,
+        "Level": 7
+      },
+      "Gear_Epic003": {
+        "Exp": 53,
+        "Level": 6
+      },
+      "Gear_Epic004": {
+        "Exp": 43,
+        "Level": 2
+      },
+      "Gear_Epic005": {
+        "Exp": 19,
+        "Level": 4
+      },
+      "Gear_Epic006": {
+        "Exp": 31,
+        "Level": 4
+      },
+      "Gear_Epic007": {
+        "Exp": 12,
+        "Level": 8
+      },
+      "Gear_Epic008": {
+        "Exp": 11,
+        "Level": 7
+      },
+      "Gear_Epic009": {
+        "Exp": 9,
+        "Level": 7
+      },
+      "Gear_Epic010": {
+        "Exp": 20,
+        "Level": 6
+      },
+      "Gear_Epic011": {
+        "Exp": 10,
+        "Level": 6
+      },
+      "Gear_Epic012": {
+        "Exp": 16,
+        "Level": 6
+      },
+      "Gear_Epic013": {
+        "Exp": 15,
+        "Level": 8
+      },
+      "Gear_Epic014": {
+        "Exp": 24,
+        "Level": 3
+      },
+      "Gear_Epic015": {
+        "Exp": 28,
+        "Level": 2
+      },
+      "Gear_Epic016": {
+        "Exp": 11,
+        "Level": 5
+      },
+      "Gear_Epic017": {
+        "Exp": 15,
+        "Level": 6
+      },
+      "Gear_Epic018": {
+        "Exp": 7,
+        "Level": 6
+      },
+      "Gear_Epic019": {
+        "Exp": 9,
+        "Level": 5
+      },
+      "Gear_Epic020": {
+        "Exp": 32,
+        "Level": 3
+      },
+      "Gear_Epic021": {
+        "Exp": 19,
+        "Level": 1
+      },
+      "Gear_Epic022": {
+        "Exp": 5,
+        "Level": 1
+      },
+      "Gear_Epic023": {
+        "Exp": 18,
+        "Level": 1
+      },
+      "Gear_Epic024": {
+        "Exp": 8,
+        "Level": 1
+      },
+      "Gear_Epic025": {
+        "Exp": 2,
+        "Level": 1
+      },
+      "Gear_Epic026": {
+        "Exp": 9,
+        "Level": 1
+      },
+      "Gear_Epic027": {
+        "Exp": 12,
+        "Level": 1
+      },
+      "Gear_Epic028": {
+        "Exp": 38,
+        "Level": 3
+      },
+      "Gear_Epic029": {
+        "Exp": 2,
+        "Level": 1
+      },
+      "Gear_Epic030": {
+        "Exp": 30,
+        "Level": 1
+      },
+      "Gear_Epic031": {
+        "Exp": 3,
+        "Level": 1
+      },
+      "Gear_Epic032": {
+        "Exp": 14,
+        "Level": 3
+      },
+      "Gear_Epic033": {
+        "Exp": 17,
+        "Level": 1
+      },
+      "Gear_Epic034": {
+        "Exp": 5,
+        "Level": 1
+      },
+      "Gear_Epic035": {
+        "Exp": 4,
+        "Level": 1
+      },
+      "Gear_Legend001": {
+        "Exp": 6,
+        "Level": 3
+      },
+      "Gear_Legend002": {
+        "Exp": 19,
+        "Level": 4
+      },
+      "Gear_Legend003": {
+        "Exp": 7,
+        "Level": 3
+      },
+      "Gear_Legend004": {
+        "Exp": 3,
+        "Level": 3
+      },
+      "Gear_Legend005": {
+        "Exp": 6,
+        "Level": 3
+      },
+      "Gear_Legend006": {
+        "Exp": 6,
+        "Level": 4
+      },
+      "Gear_Legend007": {
+        "Exp": 1,
+        "Level": 6
+      },
+      "Gear_Legend008": {
+        "Exp": 6,
+        "Level": 4
+      },
+      "Gear_Legend009": {
+        "Exp": 4,
+        "Level": 7
+      },
+      "Gear_Legend010": {
+        "Exp": 0,
+        "Level": 7
+      },
+      "Gear_Legend011": {
+        "Exp": 3,
+        "Level": 4
+      },
+      "Gear_Legend012": {
+        "Exp": 0,
+        "Level": 3
+      },
+      "Gear_Legend013": {
+        "Exp": 11,
+        "Level": 4
+      },
+      "Gear_Legend014": {
+        "Exp": 3,
+        "Level": 3
+      },
+      "Gear_Legend015": {
+        "Exp": 5,
+        "Level": 5
+      },
+      "Gear_Legend016": {
+        "Exp": 5,
+        "Level": 2
+      },
+      "Gear_Legend017": {
+        "Exp": 9,
+        "Level": 4
+      },
+      "Gear_Legend018": {
+        "Exp": 2,
+        "Level": 1
+      },
+      "Gear_Legend019": {
+        "Exp": 1,
+        "Level": 7
+      },
+      "Gear_Legend020": {
+        "Exp": 14,
+        "Level": 1
+      },
+      "Gear_Legend021": {
+        "Exp": 15,
+        "Level": 1
+      },
+      "Gear_Legend022": {
+        "Exp": 2,
+        "Level": 3
+      },
+      "Gear_Legend024": {
+        "Exp": 1,
+        "Level": 1
+      },
+      "Gear_Legend025": {
+        "Exp": 1,
+        "Level": 2
+      },
+      "Gear_Legend026": {
+        "Exp": 1,
+        "Level": 2
+      },
+      "Gear_Legend027": {
+        "Exp": 1,
+        "Level": 1
+      },
+      "Gear_Legend028": {
+        "Exp": 1,
+        "Level": 4
+      },
+      "Gear_Legend029": {
+        "Exp": 1,
+        "Level": 1
+      },
+      "Gear_Legend030": {
+        "Exp": 4,
+        "Level": 2
+      },
+      "Gear_Legend031": {
+        "Exp": 2,
+        "Level": 1
+      },
+      "Gear_Legend032": {
+        "Exp": 1,
+        "Level": 1
+      },
+      "Gear_Legend033": {
+        "Exp": 2,
+        "Level": 1
+      },
+      "Gear_Legend034": {
+        "Exp": 4,
+        "Level": 1
+      },
+      "Gear_Legend035": {
+        "Exp": 2,
+        "Level": 1
+      },
+      "Gear_Legend036": {
+        "Exp": 1,
+        "Level": 1
+      },
+      "Gear_Rare001": {
+        "Exp": 85,
+        "Level": 6
+      },
+      "Gear_Rare002": {
+        "Exp": 62,
+        "Level": 9
+      },
+      "Gear_Rare003": {
+        "Exp": 111,
+        "Level": 4
+      },
+      "Gear_Rare004": {
+        "Exp": 38,
+        "Level": 7
+      },
+      "Gear_Rare005": {
+        "Exp": 128,
+        "Level": 2
+      },
+      "Gear_Rare006": {
+        "Exp": 54,
+        "Level": 9
+      },
+      "Gear_Rare007": {
+        "Exp": 29,
+        "Level": 8
+      },
+      "Gear_Rare008": {
+        "Exp": 110,
+        "Level": 4
+      },
+      "Gear_Rare009": {
+        "Exp": 69,
+        "Level": 6
+      },
+      "Gear_Rare010": {
+        "Exp": 41,
+        "Level": 8
+      },
+      "Gear_Rare011": {
+        "Exp": 119,
+        "Level": 2
+      },
+      "Gear_Rare012": {
+        "Exp": 50,
+        "Level": 4
+      },
+      "Gear_Rare013": {
+        "Exp": 105,
+        "Level": 2
+      },
+      "Gear_Rare014": {
+        "Exp": 53,
+        "Level": 6
+      },
+      "Gear_Rare015": {
+        "Exp": 42,
+        "Level": 4
+      },
+      "Gear_Rare016": {
+        "Exp": 76,
+        "Level": 1
+      },
+      "Gear_Rare017": {
+        "Exp": 49,
+        "Level": 6
+      },
+      "Gear_Rare018": {
+        "Exp": 41,
+        "Level": 7
+      },
+      "Gear_Rare019": {
+        "Exp": 23,
+        "Level": 6
+      },
+      "Gear_Rare020": {
+        "Exp": 32,
+        "Level": 8
+      },
+      "Gear_Rare021": {
+        "Exp": 45,
+        "Level": 1
+      },
+      "Gear_Rare022": {
+        "Exp": 31,
+        "Level": 1
+      },
+      "Gear_Rare023": {
+        "Exp": 34,
+        "Level": 1
+      },
+      "Gear_Rare024": {
+        "Exp": 19,
+        "Level": 1
+      },
+      "Gear_Rare025": {
+        "Exp": 25,
+        "Level": 1
+      },
+      "Gear_Rare026": {
+        "Exp": 11,
+        "Level": 1
+      },
+      "Gear_Rare027": {
+        "Exp": 9,
+        "Level": 1
+      },
+      "Gear_Rare028": {
+        "Exp": 95,
+        "Level": 3
+      },
+      "Gear_Rare029": {
+        "Exp": 11,
+        "Level": 1
+      },
+      "Gear_Rare030": {
+        "Exp": 53,
+        "Level": 1
+      },
+      "Gear_Rare031": {
+        "Exp": 2,
+        "Level": 1
+      },
+      "Gear_Rare032": {
+        "Exp": 19,
+        "Level": 1
+      },
+      "Gear_Rare033": {
+        "Exp": 20,
+        "Level": 1
+      },
+      "Gear_Rare034": {
+        "Exp": 2,
+        "Level": 1
+      },
+      "Gear_Rare035": {
+        "Exp": 1,
+        "Level": 1
+      },
+      "Gear_Rare036": {
+        "Exp": 6,
+        "Level": 1
+      },
+      "Gear_Uncommon001": {
+        "Exp": 341,
+        "Level": 6
+      },
+      "Gear_Uncommon002": {
+        "Exp": 483,
+        "Level": 8
+      },
+      "Gear_Uncommon003": {
+        "Exp": 429,
+        "Level": 7
+      },
+      "Gear_Uncommon004": {
+        "Exp": 311,
+        "Level": 8
+      },
+      "Gear_Uncommon005": {
+        "Exp": 299,
+        "Level": 10
+      },
+      "Gear_Uncommon006": {
+        "Exp": 234,
+        "Level": 12
+      },
+      "Gear_Uncommon007": {
+        "Exp": 371,
+        "Level": 8
+      },
+      "Gear_Uncommon008": {
+        "Exp": 425,
+        "Level": 8
+      },
+      "Gear_Uncommon009": {
+        "Exp": 351,
+        "Level": 5
+      },
+      "Gear_Uncommon010": {
+        "Exp": 350,
+        "Level": 9
+      },
+      "Gear_Uncommon011": {
+        "Exp": 442,
+        "Level": 1
+      },
+      "Gear_Uncommon012": {
+        "Exp": 319,
+        "Level": 9
+      },
+      "Gear_Uncommon013": {
+        "Exp": 466,
+        "Level": 8
+      },
+      "Gear_Uncommon014": {
+        "Exp": 413,
+        "Level": 1
+      },
+      "Gear_Uncommon015": {
+        "Exp": 204,
+        "Level": 9
+      },
+      "Gear_Uncommon016": {
+        "Exp": 268,
+        "Level": 1
+      },
+      "Gear_Uncommon017": {
+        "Exp": 418,
+        "Level": 1
+      },
+      "Gear_Uncommon018": {
+        "Exp": 334,
+        "Level": 11
+      },
+      "Gear_Uncommon019": {
+        "Exp": 309,
+        "Level": 1
+      },
+      "Gear_Uncommon020": {
+        "Exp": 443,
+        "Level": 1
+      },
+      "Gear_Uncommon021": {
+        "Exp": 210,
+        "Level": 1
+      },
+      "Gear_Uncommon022": {
+        "Exp": 245,
+        "Level": 1
+      },
+      "Gear_Uncommon023": {
+        "Exp": 97,
+        "Level": 1
+      },
+      "Gear_Uncommon024": {
+        "Exp": 90,
+        "Level": 1
+      },
+      "Gear_Uncommon025": {
+        "Exp": 25,
+        "Level": 1
+      },
+      "Gear_Uncommon026": {
+        "Exp": 56,
+        "Level": 1
+      },
+      "Gear_Uncommon027": {
+        "Exp": 22,
+        "Level": 1
+      },
+      "Gear_Uncommon028": {
+        "Exp": 449,
+        "Level": 5
+      },
+      "Gear_Uncommon029": {
+        "Exp": 31,
+        "Level": 1
+      },
+      "Gear_Uncommon030": {
+        "Exp": 214,
+        "Level": 1
+      },
+      "Gear_Uncommon031": {
+        "Exp": 53,
+        "Level": 1
+      },
+      "Gear_Uncommon032": {
+        "Exp": 146,
+        "Level": 1
+      },
+      "Gear_Uncommon033": {
+        "Exp": 172,
+        "Level": 1
+      },
+      "Gear_Uncommon034": {
+        "Exp": 60,
+        "Level": 1
+      },
+      "Gear_Uncommon035": {
+        "Exp": 24,
+        "Level": 1
+      },
+      "Gear_Uncommon036": {
+        "Exp": 5,
+        "Level": 1
+      }
+    },
+    "Heroes": {
+      "Archer": {
+        "Archer01": 9,
+        "Archer02": 5,
+        "Archer03": 11,
+        "Archer04": 10,
+        "Archer05": 4,
+        "Archer06": 8,
+        "Archer07": 4,
+        "Archer08": 1,
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 4,
+        "PromoteExp": 222,
+        "Rank": 30
+      },
+      "Bard": {
+        "Awaken": 1,
+        "AwakenAbils": {
+          "Awaken_Bard_SilenceRange1": {
+            "AddTime": 44022.7302691435,
+            "Level": 1
+          },
+          "Awaken_MagicCompatibilityATK2": {
+            "AddTime": 44042.6284834722,
+            "Level": 1
+          }
+        },
+        "Bard01": 5,
+        "Bard02": 13,
+        "Bard03": 8,
+        "Bard04": 4,
+        "Bard05": 1,
+        "Bard06": 7,
+        "Bard07": 3,
+        "Bard08": 3,
+        "Bard09": 6,
+        "Level": 28,
+        "MaxLevel": 1000,
+        "Promote": 3,
+        "PromoteExp": 55,
+        "Rank": 40
+      },
+      "Corsair": {
+        "Corsair01": 20,
+        "Corsair02": 10,
+        "Corsair03": 6,
+        "Corsair04": 6,
+        "Corsair05": 9,
+        "Corsair06": 4,
+        "Corsair08": 13,
+        "Corsair09": 8,
+        "Corsair10": 4,
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 2,
+        "PromoteExp": 4,
+        "Rank": 40
+      },
+      "CrossbowMan": {
+        "CrossbowMan01": 7,
+        "CrossbowMan02": 8,
+        "CrossbowMan03": 11,
+        "CrossbowMan04": 3,
+        "CrossbowMan05": 7,
+        "CrossbowMan06": 4,
+        "CrossbowMan07": 1,
+        "CrossbowMan08": 2,
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 3,
+        "PromoteExp": 19,
+        "Rank": 30
+      },
+      "Dragoon": {
+        "Dragoon01": 5,
+        "Dragoon02": 3,
+        "Dragoon03": 5,
+        "Dragoon04": 7,
+        "Dragoon05": 2,
+        "Dragoon06": 1,
+        "Dragoon08": 10,
+        "Dragoon09": 5,
+        "Dragoon10": 2,
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 2,
+        "PromoteExp": 42,
+        "Rank": 30
+      },
+      "Druid": {
+        "Druid01": 10,
+        "Druid02": 13,
+        "Druid03": 10,
+        "Druid04": 2,
+        "Druid05": 1,
+        "Druid06": 1,
+        "Druid08": 10,
+        "Druid09": 5,
+        "Druid10": 2,
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 2,
+        "PromoteExp": 19,
+        "Rank": 30
+      },
+      "Elf": {
+        "Elf01": 1,
+        "Elf02": 2,
+        "Elf03": 1,
+        "Elf04": 12,
+        "Elf06": 1,
+        "Elf07": 7,
+        "Elf08": 1,
+        "Elf09": 1,
+        "Elf10": 1,
+        "Level": 1,
+        "MaxLevel": 1100,
+        "Promote": 3,
+        "PromoteExp": 12,
+        "Rank": 45
+      },
+      "Enchanter": {
+        "Awaken": 1,
+        "Enchanter01": 13,
+        "Enchanter02": 2,
+        "Enchanter03": 5,
+        "Enchanter04": 12,
+        "Enchanter05": 1,
+        "Enchanter06": 2,
+        "Enchanter07": 10,
+        "Enchanter08": 3,
+        "Enchanter09": 1,
+        "Enchanter10": 2,
+        "Level": 1,
+        "MaxLevel": 1100,
+        "Promote": 3,
+        "PromoteExp": 23,
+        "Rank": 51
+      },
+      "Fighter": {
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 1,
+        "PromoteExp": 0,
+        "Rank": 1
+      },
+      "FortuneTeller": {
+        "FortuneTeller01": 10,
+        "FortuneTeller02": 8,
+        "FortuneTeller03": 7,
+        "FortuneTeller04": 4,
+        "FortuneTeller05": 5,
+        "FortuneTeller08": 3,
+        "FortuneTeller09": 2,
+        "FortuneTeller10": 2,
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 2,
+        "PromoteExp": 30,
+        "Rank": 30
+      },
+      "FrostMage": {
+        "FrostMage01": 8,
+        "FrostMage02": 8,
+        "FrostMage03": 13,
+        "FrostMage04": 16,
+        "FrostMage05": 8,
+        "FrostMage06": 3,
+        "FrostMage07": 6,
+        "FrostMage08": 3,
+        "FrostMage09": 2,
+        "Level": 1,
+        "MaxLevel": 1100,
+        "Promote": 5,
+        "PromoteExp": 120,
+        "Rank": 48
+      },
+      "HawkRider": {
+        "HawkRider01": 1,
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 3,
+        "PromoteExp": 5,
+        "Rank": 23
+      },
+      "Knight": {
+        "Knight01": 25,
+        "Knight02": 8,
+        "Knight03": 11,
+        "Knight04": 4,
+        "Knight05": 9,
+        "Knight06": 1,
+        "Knight07": 11,
+        "Knight08": 2,
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 5,
+        "PromoteExp": 63,
+        "Rank": 30
+      },
+      "Lancer": {
+        "Lancer01": 5,
+        "Lancer02": 1,
+        "Lancer03": 2,
+        "Lancer05": 1,
+        "Lancer06": 1,
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 4,
+        "PromoteExp": 43,
+        "Rank": 30
+      },
+      "Legion": {
+        "Legion01": 2,
+        "Legion02": 2,
+        "Legion03": 2,
+        "Legion04": 1,
+        "Legion08": 2,
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 2,
+        "PromoteExp": 6,
+        "Rank": 30
+      },
+      "Librarian": {
+        "Level": 1,
+        "Librarian01": 7,
+        "Librarian02": 8,
+        "Librarian03": 8,
+        "Librarian04": 5,
+        "Librarian05": 4,
+        "Librarian06": 6,
+        "Librarian07": 1,
+        "Librarian08": 3,
+        "MaxLevel": 1000,
+        "Promote": 4,
+        "PromoteExp": 38,
+        "Rank": 26
+      },
+      "Monk": {
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Monk01": 1,
+        "Promote": 2,
+        "PromoteExp": 44,
+        "Rank": 21
+      },
+      "Necromancer": {
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Necromancer01": 12,
+        "Necromancer02": 1,
+        "Necromancer03": 7,
+        "Necromancer04": 5,
+        "Promote": 3,
+        "PromoteExp": 2,
+        "Rank": 30
+      },
+      "Ninja": {
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Ninja01": 10,
+        "Ninja02": 11,
+        "Ninja03": 10,
+        "Ninja04": 10,
+        "Ninja05": 9,
+        "Ninja06": 6,
+        "Ninja07": 5,
+        "Ninja08": 2,
+        "Ninja09": 1,
+        "Promote": 3,
+        "PromoteExp": 53,
+        "Rank": 34
+      },
+      "Onmyoji": {
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Onmyoji01": 4,
+        "Onmyoji02": 12,
+        "Onmyoji03": 5,
+        "Onmyoji04": 3,
+        "Onmyoji05": 2,
+        "Onmyoji06": 2,
+        "Onmyoji08": 2,
+        "Promote": 2,
+        "PromoteExp": 39,
+        "Rank": 30
+      },
+      "Paladin": {
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Paladin01": 10,
+        "Paladin02": 15,
+        "Paladin04": 1,
+        "Paladin05": 3,
+        "Paladin06": 6,
+        "Paladin07": 1,
+        "Promote": 2,
+        "PromoteExp": 63,
+        "Rank": 45
+      },
+      "Pirate": {
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Pirate01": 5,
+        "Pirate02": 2,
+        "Pirate03": 6,
+        "Pirate04": 2,
+        "Pirate05": 2,
+        "Pirate06": 1,
+        "Pirate08": 1,
+        "Promote": 3,
+        "PromoteExp": 90,
+        "Rank": 25
+      },
+      "PlagueDoctor": {
+        "Level": 1,
+        "MaxLevel": 1000,
+        "PlagueDoctor01": 5,
+        "PlagueDoctor02": 8,
+        "PlagueDoctor03": 4,
+        "PlagueDoctor04": 1,
+        "PlagueDoctor05": 3,
+        "PlagueDoctor06": 6,
+        "PlagueDoctor07": 4,
+        "PlagueDoctor08": 3,
+        "Promote": 2,
+        "PromoteExp": 34,
+        "Rank": 30
+      },
+      "Puppet": {
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 4,
+        "PromoteExp": 119,
+        "Puppet01": 11,
+        "Puppet02": 3,
+        "Puppet03": 4,
+        "Puppet04": 1,
+        "Puppet05": 1,
+        "Puppet06": 4,
+        "Puppet07": 1,
+        "Rank": 20
+      },
+      "Pyromancer": {
+        "Awaken": 1,
+        "AwakenAbils": {
+          "Awaken_ATK2": {
+            "AddTime": 44017.1797982639,
+            "Level": 2
+          },
+          "Awaken_MagicCompatibilityATK3": {
+            "AddTime": 44012.5682752778,
+            "Level": 2
+          },
+          "Awaken_Pyromancer_MeteorFallATK3": {
+            "AddTime": 44037.0582261111,
+            "Level": 6
+          },
+          "Awaken_SplashATK2": {
+            "AddTime": 44013.4883851505,
+            "Level": 1
+          }
+        },
+        "Level": 5000,
+        "MaxLevel": 7000,
+        "Promote": 5,
+        "PromoteExp": 74,
+        "Pyromancer01": 27,
+        "Pyromancer02": 18,
+        "Pyromancer03": 9,
+        "Pyromancer04": 11,
+        "Pyromancer05": 16,
+        "Pyromancer06": 46,
+        "Pyromancer07": 7,
+        "Pyromancer08": 17,
+        "Pyromancer09": 8,
+        "Pyromancer10": 3,
+        "Rank": 55
+      },
+      "Raider": {
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 3,
+        "PromoteExp": 37,
+        "Raider01": 4,
+        "Raider02": 4,
+        "Raider03": 4,
+        "Raider04": 2,
+        "Raider05": 1,
+        "Raider06": 2,
+        "Raider07": 6,
+        "Raider09": 1,
+        "Rank": 35
+      },
+      "Scientist": {
+        "Awaken": 1,
+        "AwakenAbils": {
+          "Awaken_BuffAI_ATKSpeedHigh1": {
+            "AddTime": 44037.0620170486,
+            "Level": 1
+          },
+          "Awaken_GroundATK2": {
+            "AddTime": 44037.0620930903,
+            "Level": 1
+          },
+          "Awaken_RangedCompatibilityATK1": {
+            "AddTime": 44037.0621755903,
+            "Level": 1
+          },
+          "Awaken_Scientist_OnePotion1": {
+            "AddTime": 44037.0621266551,
+            "Level": 1
+          }
+        },
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 5,
+        "PromoteExp": 17,
+        "Rank": 47,
+        "Scientist01": 10,
+        "Scientist02": 3,
+        "Scientist03": 11,
+        "Scientist04": 14,
+        "Scientist05": 7,
+        "Scientist06": 2,
+        "Scientist07": 2,
+        "Scientist08": 1,
+        "Scientist09": 2,
+        "Scientist10": 1
+      },
+      "Scout": {
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 2,
+        "PromoteExp": 4,
+        "Rank": 30,
+        "Scout01": 2,
+        "Scout02": 1,
+        "Scout03": 1,
+        "Scout04": 1,
+        "Scout05": 1,
+        "Scout08": 9,
+        "Scout09": 5,
+        "Scout10": 1
+      },
+      "Shaman": {
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 5,
+        "PromoteExp": 44,
+        "Rank": 22,
+        "Shaman01": 3,
+        "Shaman02": 3,
+        "Shaman03": 4,
+        "Shaman04": 5,
+        "Shaman05": 2,
+        "Shaman06": 2,
+        "Shaman07": 2
+      },
+      "Sniper": {
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 3,
+        "PromoteExp": 99,
+        "Rank": 20,
+        "Sniper01": 2,
+        "Sniper02": 1,
+        "Sniper03": 1,
+        "Sniper04": 1,
+        "Sniper05": 1,
+        "Sniper06": 1,
+        "Sniper07": 1
+      },
+      "Striker": {
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 2,
+        "PromoteExp": 1,
+        "Rank": 30,
+        "Striker01": 2,
+        "Striker02": 1,
+        "Striker03": 7,
+        "Striker04": 7,
+        "Striker05": 2,
+        "Striker06": 1,
+        "Striker08": 1,
+        "Striker09": 2,
+        "Striker10": 1
+      },
+      "SwordMan": {
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 4,
+        "PromoteExp": 67,
+        "Rank": 21,
+        "SwordMan01": 3,
+        "SwordMan02": 4,
+        "SwordMan03": 4,
+        "SwordMan04": 2,
+        "SwordMan05": 5,
+        "SwordMan06": 1,
+        "SwordMan07": 1
+      },
+      "Thief": {
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 5,
+        "PromoteExp": 80,
+        "Rank": 21,
+        "Thief01": 1
+      },
+      "Tinker": {
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 3,
+        "PromoteExp": 30,
+        "Rank": 40,
+        "Tinker01": 20,
+        "Tinker02": 13,
+        "Tinker03": 8,
+        "Tinker04": 3,
+        "Tinker05": 4,
+        "Tinker06": 11,
+        "Tinker07": 4,
+        "Tinker08": 6,
+        "Tinker09": 3
+      },
+      "Warlock": {
+        "Level": 1,
+        "MaxLevel": 1000,
+        "Promote": 3,
+        "PromoteExp": 5,
+        "Rank": 20,
+        "Warlock01": 5,
+        "Warlock02": 4,
+        "Warlock05": 4,
+        "Warlock06": 2,
+        "Warlock07": 2,
+        "Warlock08": 1
+      }
+    },
+    "ClickerJobs": {
+      "Fighter": {
+        "JobLevel": 15
+      },
+      "Merchant": {
+        "JobLevel": 1
+      },
+      "HorseRider": {
+        "JobLevel": 11
+      },
+      "AlphaSwordman": {
+        "JobLevel": 1
+      },
+      "Electromancer": {
+        "JobLevel": 1
+      },
+      "DragonRider": {
+        "JobLevel": 12
+      }
+    },
+    "InAppStore": {
+      "BeginnerPackage": {
+        "BuyTime": 44007.3444486921
+      },
+      "SmartPackage": {
+        "BuyTime": 44007.0985491319
+      }
+    },
+    "MailBox": {
+      "822179": {
+        "ReceiveTime": 44008.0696687963
+      },
+      "823335": {
+        "ReceiveTime": 44009.0522767361
+      },
+      "824316": {
+        "ReceiveTime": 44009.9487832639
+      },
+      "825127": {
+        "ReceiveTime": 44010.9907363426
+      },
+      "826583": {
+        "ReceiveTime": 44011.9957981944
+      },
+      "827086": {
+        "ReceiveTime": 44012.9972322338
+      },
+      "828287": {
+        "ReceiveTime": 44013.9887340509
+      },
+      "830090": {
+        "ReceiveTime": 44014.9896775694
+      },
+      "830853": {
+        "ReceiveTime": 44016.0694898843
+      },
+      "831880": {
+        "ReceiveTime": 44017.0501625463
+      },
+      "832864": {
+        "ReceiveTime": 44017.9934241667
+      },
+      "833675": {
+        "ReceiveTime": 44018.9918089468
+      },
+      "834509": {
+        "ReceiveTime": 44021.4939184722
+      },
+      "834510": {
+        "ReceiveTime": 44022.5489187269
+      },
+      "834511": {
+        "ReceiveTime": 44020.2067887963
+      },
+      "834758": {
+        "ReceiveTime": 44020.2068505903
+      },
+      "835563": {
+        "ReceiveTime": 44020.3224331713
+      },
+      "835564": {
+        "ReceiveTime": 44023.4953754398
+      },
+      "835614": {
+        "ReceiveTime": 44021.1100551505
+      },
+      "837153": {
+        "ReceiveTime": 44021.9944085185
+      },
+      "837676": {
+        "ReceiveTime": 44022.5479183218
+      },
+      "837677": {
+        "ReceiveTime": 44022.5478704051
+      },
+      "837880": {
+        "ReceiveTime": 44023.0483131134
+      },
+      "838849": {
+        "ReceiveTime": 44024.0270039236
+      },
+      "839819": {
+        "ReceiveTime": 44024.9933781597
+      },
+      "841617": {
+        "ReceiveTime": 44026.0017335532
+      },
+      "842349": {
+        "ReceiveTime": 44027.2084467361
+      },
+      "843002": {
+        "ReceiveTime": 44028.1893615741
+      },
+      "844166": {
+        "ReceiveTime": 44029.3593943403
+      },
+      "844967": {
+        "ReceiveTime": 44030.0444678472
+      },
+      "846419": {
+        "ReceiveTime": 44031.1252958218
+      },
+      "847390": {
+        "ReceiveTime": 44031.9959591898
+      },
+      "848009": {
+        "ReceiveTime": 44032.9941301042
+      },
+      "848621": {
+        "ReceiveTime": 44034.4889871875
+      },
+      "851071": {
+        "ReceiveTime": 44036.5464864815
+      },
+      "851690": {
+        "ReceiveTime": 44037.0558786806
+      },
+      "852457": {
+        "ReceiveTime": 44037.9953857176
+      },
+      "853633": {
+        "ReceiveTime": 44039.0052117245
+      },
+      "853943": {
+        "ReceiveTime": 44039.9998517824
+      },
+      "854759": {
+        "ReceiveTime": 44041.0036436111
+      },
+      "855818": {
+        "ReceiveTime": 44042.0759818287
+      }
+    },
+    "Traits": {
+      "Trait_DragonRider1": {
+        "Level": 1
+      },
+      "Trait_DragonRider3": {
+        "Level": 10
+      },
+      "Trait_DragonRider4": {
+        "Level": 30
+      },
+      "Trait_Electromancer1": {
+        "Level": 16
+      },
+      "Trait_Electromancer2": {
+        "Level": 30
+      },
+      "Trait_Fighter1": {
+        "Level": 6
+      },
+      "Trait_Fighter2": {
+        "Level": 5
+      },
+      "Trait_Fighter5": {
+        "Level": 30
+      },
+      "Trait_HorseRider1": {
+        "Level": 30
+      },
+      "Trait_HorseRider4": {
+        "Level": 30
+      },
+      "Trait_HorseRider5": {
+        "Level": 30
+      }
+    },
+    "HotTimeBuffs": {
+      "165": {
+        "Type": "AwakenStoneRate",
+        "ShortDesc": "STR_ShortHotTimeBuff_AwakenStoneRate_Event",
+        "Icon": "Sprites/Icons/Common/superhottime_small",
+        "UID": 165,
+        "Bonus": 200,
+        "Show": 1,
+        "StartTime": 44041.0000578704,
+        "EndTime": 44048,
+        "DeviceType": "All"
+      }
+    },
+    "EventPackages": {
+      "245": {
+        "UID": 245,
+        "Show": 1,
+        "StartTime": 44013.125,
+        "EndTime": 44047.9965277778,
+        "Code": "promotionpackage5",
+        "ImageID": 1,
+        "LimitCount": 10,
+        "ItemID1": 3,
+        "ItemID2": 10,
+        "ItemID3": 33,
+        "ItemID4": 1,
+        "Value1": 3,
+        "Value2": 2,
+        "Value3": 3,
+        "Value4": 7000,
+        "DE": {
+          "SubTitle": "<size=\"60\"> Monatliches Paket </size>",
+          "Contents": "<size=\"60\"> Deine Gelegeneheit Spezial-Deals zu landen! </size>"
+        },
+        "EN": {
+          "SubTitle": "<size=\"60\"> Monthly Package </size>",
+          "Contents": "<size=\"60\"> Your opportunity to enjoy special deals! </size>"
+        },
+        "FR": {
+          "SubTitle": "<size=\"60\"> Forfait Mensuel </size>",
+          "Contents": "<size=\"60\"> Votre opportunité de profiter de deals spéciaux </size>"
+        },
+        "JA": {
+          "SubTitle": "<size=\"60\"> 月額パッケージ </size>",
+          "Contents": "<size=\"60\"> 特別な価格で購入できる絶好のチャンス </size>"
+        },
+        "KR": {
+          "SubTitle": "<size=\"60\"> 월간 패키지 </size>",
+          "Contents": "<size=\"60\"> 특별한 가격에 구매할 수 있는 절호의 찬스 </size>"
+        },
+        "TH": {
+          "SubTitle": "<size=\"60\"> แพ็กเกจรายเดือน </size>",
+          "Contents": "<size=\"60\"> โอกาสดีเยี่ยมในการซื้อในราคาพิเศษ </size>"
+        },
+        "Zh-Hant": {
+          "SubTitle": "<size=\"60\"> 每月套餐 </size>",
+          "Contents": "<size=\"60\"> 獲得優惠的機會 </size>"
+        },
+        "ProductID": "promotionpackage5",
+        "Type": "EventPackage",
+        "Rewards": {
+          "0": {
+            "Type": "HeroBox",
+            "RewardDetail": "HeroBox2",
+            "Value": 3
+          },
+          "1": {
+            "Type": "GearBox",
+            "RewardDetail": "LegendaryBox",
+            "Value": 2
+          },
+          "2": {
+            "Type": "Coin",
+            "RewardDetail": "ClanRaidKey",
+            "Value": 3
+          },
+          "3": {
+            "Type": "Coin",
+            "RewardDetail": "Gem",
+            "Value": 7000
+          }
+        },
+        "Price": 49.99,
+        "Image": "Sprites/Icons/closeup/thumb_dragonrider",
+        "PlayerLimitCount": 0
+      },
+      "250": {
+        "UID": 250,
+        "Show": 1,
+        "StartTime": 44041,
+        "EndTime": 44047.9965277778,
+        "Code": "promotionpackage10",
+        "ImageID": 1,
+        "LimitCount": 5,
+        "ItemID1": 1,
+        "ItemID2": 46,
+        "ItemID3": 36,
+        "ItemID4": 48,
+        "Value1": 15000,
+        "Value2": 15,
+        "Value3": 5,
+        "Value4": 10,
+        "DE": {
+          "SubTitle": "<size=\"60\"> Spezial-Paket </size>",
+          "Contents": "<size=\"60\"> Spezial Rabatt-Gelegenheit </size>"
+        },
+        "EN": {
+          "SubTitle": "<size=\"60\"> Special Package </size>",
+          "Contents": "<size=\"60\"> Special Discount Opportunity </size>"
+        },
+        "FR": {
+          "SubTitle": "<size=\"60\"> Pack Spécial </size>",
+          "Contents": "<size=\"60\"> Opportunité Spéciale de Réduction </size>"
+        },
+        "JA": {
+          "SubTitle": "<size=\"60\"> スペシャルパッケージ </size>",
+          "Contents": "<size=\"60\"> 特別割引チャンス </size>"
+        },
+        "KR": {
+          "SubTitle": "<size=\"60\"> 스페셜 패키지 </size>",
+          "Contents": "<size=\"60\"> 특별 할인 찬스 </size>"
+        },
+        "TH": {
+          "SubTitle": "<size=\"60\"> แพ็คเกจพิเศษ </size>",
+          "Contents": "<size=\"60\"> โอกาสลดราคาพิเศษ </size>"
+        },
+        "Zh-Hant": {
+          "SubTitle": "<size=\"60\"> 特別禮包 </size>",
+          "Contents": "<size=\"60\"> 特別優惠禮包 </size>"
+        },
+        "ProductID": "promotionpackage10",
+        "Type": "EventPackage",
+        "Rewards": {
+          "0": {
+            "Type": "Coin",
+            "RewardDetail": "Gem",
+            "Value": 15000
+          },
+          "1": {
+            "Type": "Token",
+            "RewardDetail": "AwakenTicketToken",
+            "Value": 15
+          },
+          "2": {
+            "Type": "Token",
+            "RewardDetail": "AllAwakenAbilsRefundToken",
+            "Value": 5
+          },
+          "3": {
+            "Type": "Token",
+            "RewardDetail": "ExceedKeyToken",
+            "Value": 10
+          }
+        },
+        "Price": 99.99,
+        "Image": "Sprites/Icons/closeup/thumb_dragonrider",
+        "PlayerLimitCount": 0
+      }
+    },
+    "Fellowships": {
+      "Fellowships": {
+        "Heroes": {
+          "Archer": 10,
+          "Bard": 130,
+          "Corsair": 80,
+          "CrossbowMan": 410,
+          "Dragoon": 380,
+          "Druid": 310,
+          "Elf": 220,
+          "Enchanter": 240,
+          "FortuneTeller": 190,
+          "FrostMage": 50,
+          "HawkRider": 440,
+          "Knight": 20,
+          "Lancer": 90,
+          "Legion": 410,
+          "Librarian": 20,
+          "Monk": 390,
+          "Necromancer": 400,
+          "Ninja": 270,
+          "Onmyoji": 120,
+          "Paladin": 140,
+          "Pirate": 420,
+          "PlagueDoctor": 180,
+          "Puppet": 100,
+          "Pyromancer": 70,
+          "Raider": 40,
+          "Scientist": 70,
+          "Scout": 30,
+          "Shaman": 50,
+          "Sniper": 60,
+          "Striker": 10,
+          "SwordMan": 50,
+          "Thief": 50,
+          "Tinker": 200,
+          "Warlock": 440
+        },
+        "Limits": {
+          "Long": "4",
+          "Mid": "23",
+          "Short": "26"
+        }
+      }
+    },
+    "CouponOn": "true",
+    "Tokens": {
+      "LegendHeroSelectBox01": 2,
+      "EpicHeroSelectBox01": 1,
+      "CommonRareHeroSelectBox01": 0,
+      "ClanRaidKeyToken": 3,
+      "ExceedKeyToken": 0,
+      "MedalBonus2XToken": 1,
+      "MedalBonus150Token": 3,
+      "AllAwakenAbilsRefundToken": 3
+    },
+    "EventQuest": {
+      "73": {
+        "UID": 73,
+        "Show": 1,
+        "StartTime": 44041.0000578704,
+        "EndTime": 44048,
+        "LimitType": "EventQuestLimit1",
+        "LimitValueUpper": 9000,
+        "LimitValueLower": 0,
+        "MissionType": "EventQuestMission6",
+        "Missions": {
+          "0": {
+            "MissionValue": 5,
+            "Rewards": {
+              "1": {
+                "Value": 3,
+                "Type": "HeroBox",
+                "RewardDetail": "HeroBox1",
+                "RewardReason": "EventQuest"
+              }
+            },
+            "RewardTime": 44041.1301932292
+          },
+          "1": {
+            "MissionValue": 10,
+            "Rewards": {
+              "1": {
+                "Value": 1,
+                "Type": "GearBox",
+                "RewardDetail": "GreatBox",
+                "RewardReason": "EventQuest"
+              }
+            },
+            "RewardTime": 44042.1673104398
+          },
+          "2": {
+            "MissionValue": 15,
+            "Rewards": {
+              "1": {
+                "Value": 1,
+                "Type": "HeroBox",
+                "RewardDetail": "HeroBoxEpic",
+                "RewardReason": "EventQuest"
+              }
+            },
+            "RewardTime": 44042.1673844097
+          },
+          "3": {
+            "MissionValue": 20,
+            "Rewards": {
+              "1": {
+                "Value": 1,
+                "Type": "GearBox",
+                "RewardDetail": "LegendaryBox",
+                "RewardReason": "EventQuest"
+              }
+            }
+          },
+          "4": {
+            "MissionValue": 25,
+            "Rewards": {
+              "1": {
+                "Value": 1,
+                "Type": "HeroBox",
+                "RewardDetail": "HeroBoxLegend",
+                "RewardReason": "EventQuest"
+              }
+            }
+          },
+          "5": {
+            "MissionValue": 30,
+            "Rewards": {
+              "1": {
+                "Value": 1,
+                "Type": "Coin",
+                "RewardDetail": "LegendHeroSelectBox01",
+                "RewardReason": "EventQuest"
+              }
+            }
+          },
+          "6": {
+            "MissionValue": 40,
+            "Rewards": {
+              "1": {
+                "Value": 86400,
+                "Type": "DurationItem",
+                "RewardDetail": "MedalBonus2X"
+              }
+            }
+          }
+        },
+        "CurrentValue": 15
+      }
+    },
+    "Notices": {
+      "0": {
+        "EN": {
+          "URL": "https://www.facebook.com/TapDefendersEN/posts/2026864887555624"
+        },
+        "JA": {
+          "URL": "https://www.facebook.com/TapDefendersEN/posts/2026866377555475"
+        },
+        "KR": {
+          "URL": "https://cafe.naver.com/tapdefenders/6"
+        },
+        "Zh-Hant": {
+          "URL": "https://www.facebook.com/TapDefendersEN/posts/2026866480888798"
+        },
+        "Lang": {
+          "EN": "True",
+          "JA": "True",
+          "KR": "True",
+          "Zh-Hant": "True"
+        }
+      }
+    },
+    "LastAccessTime": 44042.7226613657,
+    "EventCash": 0,
+    "Clan": {
+      "Info": {
+        "ClanPoint": 637817,
+        "WeeklyClanPoint": 69013,
+        "Store": {
+          "AwakenStoneBonus2X": {
+            "BuyableTime": 43978
+          },
+          "ExceedStoneBonus2X": {
+            "BuyableTime": 44006
+          },
+          "GoldRate": {
+            "BuyableTime": 43964
+          },
+          "MedalBonus2X": {
+            "BuyableTime": 44048
+          },
+          "GearBonus2X": {
+            "BuyableTime": 44034
+          }
+        },
+        "Artifacts": {
+          "Book": {
+            "Exp": 2,
+            "Level": 3
+          },
+          "Elixer": {
+            "Exp": 4,
+            "Level": 3
+          },
+          "Orb": {
+            "Exp": 2,
+            "Level": 3
+          },
+          "Shield": {
+            "Exp": 3,
+            "Level": 2
+          }
+        },
+        "Tactics": {
+          "MagicATKRateUp": {
+            "Level": 1
+          },
+          "SetUpStatue": {
+            "Level": 3
+          },
+          "HPLineAttack": {
+            "Level": 1
+          }
+        },
+        "Quests": {
+          "ClanQuestClear1": 4,
+          "RaidItem_BalrogCrystal1": 3,
+          "RaidItem_BalrogHorn1": 8,
+          "RaidItem_BalrogHorn2": 13,
+          "RaidItem_BalrogTeeth1": 50,
+          "RaidItem_BalrogTeeth2": 85,
+          "RaidPlay3": 375,
+          "RaidPlay2": 250,
+          "RaidPlay1": 120,
+          "RaidItem_BalrogCrystal2": 6,
+          "RaidItem_BalrogCrystal3": 9,
+          "ClanQuestClear2": 7
+        },
+        "QuestSeason": "ClanQuest002",
+        "ContributePoint": 27,
+        "ClanToken": "1c24310c-df00-46df-adad-1c1b588c4675",
+        "Code": "MYKQ1",
+        "JoinTime": 44010.5626835995,
+        "Role": "Knight",
+        "PlayerClanPoint": 1191,
+        "AccumContributePoint": 27,
+        "Notice": "五天沒上會自動退出噢！.             Taiwan can he1p溫馨臺灣 請大家多多打戰隊襲擊喔.                    Line 群請加我好友 plasticching",
+        "AutoKick": 5,
+        "Name": "Paradise臺灣",
+        "Desc": "溫馨臺灣 Welcome the Paradise Taiwan！  Taiwan can he1p",
+        "Background": "Background8",
+        "Icon": "Icon14",
+        "StageLimit": 1000,
+        "Privacy": "Public",
+        "ClanGlobalToken": "MYKQ1",
+        "CreateTime": 43933.7116456481,
+        "Ranking": 38,
+        "Count": 30,
+        "MasterName": "落花殤飛逝"
+      },
+      "Store": {
+        "AwakenStoneBonus2X": {
+          "BuyableTime": 43978
+        },
+        "ExceedStoneBonus2X": {
+          "BuyableTime": 44006
+        },
+        "GoldRate": {
+          "BuyableTime": 43964
+        },
+        "MedalBonus2X": {
+          "BuyableTime": 44048
+        },
+        "GearBonus2X": {
+          "BuyableTime": 44034
+        }
+      },
+      "Artifacts": {
+        "Book": {
+          "Exp": 2,
+          "Level": 3
+        },
+        "Elixer": {
+          "Exp": 4,
+          "Level": 3
+        },
+        "Orb": {
+          "Exp": 2,
+          "Level": 3
+        },
+        "Shield": {
+          "Exp": 3,
+          "Level": 2
+        }
+      },
+      "Tactics": {
+        "MagicATKRateUp": {
+          "Level": 1
+        },
+        "SetUpStatue": {
+          "Level": 3
+        },
+        "HPLineAttack": {
+          "Level": 1
+        }
+      },
+      "Quests": {
+        "ClanQuestClear1": 4,
+        "RaidItem_BalrogCrystal1": 3,
+        "RaidItem_BalrogHorn1": 8,
+        "RaidItem_BalrogHorn2": 13,
+        "RaidItem_BalrogTeeth1": 50,
+        "RaidItem_BalrogTeeth2": 85,
+        "RaidPlay3": 375,
+        "RaidPlay2": 250,
+        "RaidPlay1": 120,
+        "RaidItem_BalrogCrystal2": 6,
+        "RaidItem_BalrogCrystal3": 9,
+        "ClanQuestClear2": 7
+      },
+      "NextRewardTime": 44046
+    },
+    "ClanRaid": {
+      "LastChargeTime": 44042.7226616551,
+      "NextRewardTime": 44046,
+      "Supporter": {
+        "EndTime": 44042.089467419,
+        "HeroID": "Thief"
+      },
+      "Holdings": {
+        "1": "d9ac9291-6ea1-4bd1-b50a-cbe379a63cf8",
+        "2": "3a0f15db-5256-4b49-b7d0-97394469901a",
+        "3": "b6b2ac80-29a9-4a90-9aa0-c662cd7f59a3",
+        "4": "de228272-15f6-4b53-b43a-2b6a6030cac1",
+        "5": "afa05f61-91cb-45a2-8815-662c3b5b96d0",
+        "6": "f9c3af95-4933-4f5c-b8b5-86d6f71470e1",
+        "8": "bdaeb99d-04d8-428a-add9-0828143fcf6a",
+        "9": "de8d46f8-3d16-4b1a-b230-5c5045b75fcf"
+      }
+    },
+    "ClanRaidKey": 2,
+    "ClanRaidKeyMax": 2,
+    "BeginnerQuest": {
+      "ChangeNickname": {
+        "CurrentValue": 1,
+        "RewardTime": 44007.3785135648
+      },
+      "FirstLink": {
+        "CurrentValue": 1,
+        "RewardTime": 44007.08055625
+      },
+      "Init": 44007.0685502199,
+      "JoinClan": {
+        "CurrentValue": 1
+      },
+      "JoinLeague": {
+        "CurrentValue": 35,
+        "RewardTime": 44007.3785438889
+      },
+      "MaxClearStage1": {
+        "RewardTime": 44007.0748112037
+      },
+      "MaxClearStage2": {
+        "RewardTime": 44007.0823880556
+      },
+      "MaxClearStage3": {
+        "RewardTime": 44007.0923149768
+      },
+      "MaxClearStage4": {
+        "RewardTime": 44007.3779529745
+      },
+      "MaxClearStage5": {
+        "RewardTime": 44007.213049375
+      },
+      "Prestige2": {
+        "RewardTime": 44007.2132467708
+      }
+    },
+    "StageFirstClearBonus": {
+      "500": 500,
+      "1000": 1000,
+      "1500": 1500,
+      "2000": 2000,
+      "2500": 2500,
+      "3000": 3000,
+      "3500": 3500,
+      "4000": 4000,
+      "4500": 4500,
+      "5000": 5000,
+      "5500": 5500,
+      "6000": 6000
+    }
+  }
+}

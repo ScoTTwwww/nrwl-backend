@@ -1,4 +1,4 @@
-import { Controller, Post, Body, Get, Param, Response, HttpStatus, Delete, HttpService } from '@nestjs/common';
+import { Controller, Post, Body, Get, Param, Response, HttpStatus, Delete, HttpService, Render } from '@nestjs/common';
 import { TapGameService } from './tap-game.service';
  
 @Controller('tap-game')
@@ -6,6 +6,12 @@ export class TapGameController {
   constructor(  private tapGameService: TapGameService) {
 
   }
+
+  @Get('')
+  root() {
+    return { 'zzz': 'sss'};
+  }
+  
   @Get('basicInfo')
    getBasicInfo() {
     return  this.tapGameService.AuthSignin() 

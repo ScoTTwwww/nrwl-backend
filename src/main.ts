@@ -9,7 +9,11 @@ async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(
     AppModule,
   );
-  app.useStaticAssets(join(__dirname, '..', 'public'));
+
+  app.useStaticAssets(join(__dirname, '..', 'public/web'), {prefix: '/web/'});
+  app.useStaticAssets(join(__dirname, '..', 'public/mobile'), {prefix: '/mobile/'});
+  app.useStaticAssets(join(__dirname, '..', 'public/tapGame'), {prefix: '/tapGame/'});
+
   await app.listen(3000);
 }
 bootstrap();

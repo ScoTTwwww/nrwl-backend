@@ -42,7 +42,8 @@ export class TapGameService {
 
   async playGame(result) {
     this.headersRequest.Token = result.token;
-    const res = await this.httpService.post(this.apiUrl.playGame, result.config, { headers: this.headersRequest }).toPromise();
+    const zz = 'H4sIAAAAAAAAEz3NsQ6CMBSF4Xe5MyVcvJTKZiRREzdRE7dbWpGBkrRlMMZ3tyyO58tJ/g+0HPlmfRhnBw1iBmd2w8KDhQYeL3FkFyGD/wMwr3KVZD8vLvp3ku6e5oEne4ns4wp+sYna66lNi+uyMFIasXnqUhDRVqjKoNCy1toikuwJ1myIu763IXTjlOJEBam8QomkFJXy+wNzNcViqwAAAA==';
+    const res = await this.httpService.post(this.apiUrl.playGame, zz, { headers: this.headersRequest }).toPromise();
     
     return res.data;
   }
