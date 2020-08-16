@@ -14,6 +14,6 @@ async function bootstrap() {
   app.useStaticAssets(join(__dirname, '..', 'public/ionic'), {prefix: '/mobile/'});
   app.useStaticAssets(join(__dirname, '..', 'public/tapGame'), {prefix: '/tapGame/'});
 
-  await app.listen(8080);
+  await app.listen(process.env.PORT || 8080);
 }
 bootstrap();
