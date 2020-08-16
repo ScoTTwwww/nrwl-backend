@@ -1,0 +1,21 @@
+{
+  "theme": {
+    "title": "皮膚選擇",
+    "theme-1": "白灰",
+    "theme-2": "暗黑",
+    "theme-3": "白藍"
+  },
+  "language": {
+    "title": "語系設定",
+    "zh-TW": "繁體中文",
+    "en-US": "英文"
+  },
+  "login": {
+    "title": "登入",
+    "userId": "帳號",
+    "password": "密碼"
+  },
+  "system": {
+    "confirm": "確認"
+  }
+}

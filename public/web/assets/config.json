@@ -1,0 +1,17 @@
+{
+  "theme": {
+    "list": [
+      "theme-1",
+      "theme-2",
+      "theme-3"
+    ],
+    "default": "theme-2"
+  },
+  "language": {
+    "list": [
+      "en-US",
+      "zh-TW"
+    ],
+    "default": "zh-TW"
+  }
+}

@@ -11,9 +11,9 @@ async function bootstrap() {
   );
 
   app.useStaticAssets(join(__dirname, '..', 'public/web'), {prefix: '/web/'});
-  app.useStaticAssets(join(__dirname, '..', 'public/mobile'), {prefix: '/mobile/'});
+  app.useStaticAssets(join(__dirname, '..', 'public/ionic'), {prefix: '/mobile/'});
   app.useStaticAssets(join(__dirname, '..', 'public/tapGame'), {prefix: '/tapGame/'});
 
-  await app.listen(8080);
+  await app.listen(3000);
 }
 bootstrap();

@@ -1,0 +1,16 @@
+{
+  "theme": {
+    "list": [
+      "light",
+      "dark"
+    ],
+    "default": "light"
+  },
+  "language": {
+    "list": [
+      "en-US",
+      "zh-TW"
+    ],
+    "default": "zh-TW"
+  }
+}
