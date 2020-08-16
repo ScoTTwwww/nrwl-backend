@@ -5,12 +5,12 @@
   "author": "",
   "private": true,
   "license": "UNLICENSED",
-  
+  "main": "dist/main.js",
   "scripts": {
     "prebuild": "rimraf dist",
- 
+    "build": "tsc -p tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
- 
+    "start": "node ./dist/main.js",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
@@ -20,9 +20,7 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "build": "tsc -p tsconfig.build.json",
-    "start": "ts-node -r tsconfig-paths/register src/main.ts",
-    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build "
+    "gcp-build": "npm run build"
   },
   "dependencies": {
     "@nestjs/common": "^7.0.0",
