@@ -5,6 +5,7 @@ import { User } from './interface/user.interface';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { User as CreateUserDto } from './dto/create-user.dto';
+import { AuthService } from 'src/auth/auth.service';
 
 export class UserDTO {
   userName: string;
@@ -13,7 +14,10 @@ export class UserDTO {
 
 @Injectable()
 export class UsersService {
-  constructor(@InjectModel('Users') private readonly usersModel: Model<User>) { }
+  constructor(
+    @InjectModel('Users') private readonly usersModel: Model<User>,
+    private authService: AuthService
+    ) { }
 
   //创建cats
   async create(createUserDto: User): Promise<User> {
@@ -47,6 +51,11 @@ export class UsersService {
     let user = await this.usersModel.findById(_id).exec();
 
     return { message: !user? "刪除成功": "刪除失敗"}
+  }
+
+  createToken(_id: String) {
+    console.log(this.authService.createToken(_id))
+    return this.authService.createToken(_id);
   }
 
   /* async remove(id: string): Promise<void> {

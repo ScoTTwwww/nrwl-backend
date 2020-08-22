@@ -1,9 +1,10 @@
-import { Controller, Post, Body, Get, Param, Response, HttpStatus, Delete } from '@nestjs/common';
+import { Controller, Post, Body, Get, Param, Response, HttpStatus, Delete, UseGuards, Request } from '@nestjs/common';
 import { UsersService } from './users.service';
 import { create } from 'domain';
 import { User } from './dto/create-user.dto';
+import { AuthGuard } from '@nestjs/passport';
 
-@Controller('Users')
+@Controller('api/users')
 export class UsersController {
   constructor(private readonly Userservice: UsersService) {
 
@@ -34,9 +35,15 @@ export class UsersController {
   }
 
   @Post()
-  create(@Response() res, @Body() createUserDto: User) {
+  @UseGuards(AuthGuard('jwt'))
+  create(@Response() res,@Request() req, @Body() createUserDto: User) {
     this.Userservice.create(createUserDto);
-
-    return res.status(HttpStatus.OK).json(createUserDto);
+ /*    const sss: String = createUserDto.id;
+     const zz = this.Userservice.createToken(sss);
+     console.log(zz) */
+     console.log(req)
+    return res.status(HttpStatus.OK).json(req.user);
   }
+
+
 }
