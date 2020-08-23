@@ -5,6 +5,10 @@ export class User {
   @PrimaryGeneratedColumn()
   id: string;
 
+  @PrimaryGeneratedColumn()
+  //UserId
+  userId: String;
+
   //E-mail
   @Column()
   email: string;

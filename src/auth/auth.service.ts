@@ -4,12 +4,14 @@ import { InjectModel } from '@nestjs/mongoose';
 import { User } from 'src/users/user.entity';
 import { Model } from 'mongoose';
 import { JwtService } from '@nestjs/jwt';
+import { UsersService } from 'src/users/users.service';
 
 @Injectable()
 export class AuthService {
 
     constructor(
-        private readonly jwtService: JwtService
+        private readonly jwtService: JwtService,
+        private usersService: UsersService
     ) { }
 
     createToken(id: String) {
@@ -18,14 +20,14 @@ export class AuthService {
         const secret = 'scottisgod';
         const token = jwt.sign({ userId: id }, secret, { expiresIn: expiresIn });
 
-       /*  return {
-            expires_in: expiresIn,
-            token: token
-        } */
+        /*  return {
+             expires_in: expiresIn,
+             token: token
+         } */
 
         return {
             access_token: this.jwtService.sign({ userId: id }),
-          };
+        };
     }
 
     public async validate(payload: object): Promise<boolean> {
@@ -42,22 +44,42 @@ export class AuthService {
         }
     }
 
-    
-  async validateUser(username: string, pass: string): Promise<any> {
-   // const user = await this.usersService.findOne(username);
- 
-    if (true) {
-     
-      return { 'user': 'fk'};
-    }
-    return null;  
 
-    if (true) {
-        return true;
+    async validateUser(username: string, pass: string): Promise<any> {
+        // const user = await this.usersService.findOne(username);
+
+        if (true) {
+
+            return { 'user': 'fk' };
+        }
+        return null;
+
+        if (true) {
+            return true;
+        }
+        //沒該筆資料回傳false
+        else {
+            return false;
+        }
     }
-    //沒該筆資料回傳false
-    else {
-        return false;
+
+    async login(user: User) {
+        const payload = {
+            userId: user.userId,
+            username: user.nickname,
+            type: user.type,
+        };
+
+        const userData = await this.usersService.findOne(user);
+
+        if(userData){
+            return {
+                userInfo: userData,
+                access_token: this.jwtService.sign(payload)
+            };
+        }else {
+            return false;
+        }
+        
     }
-  }
 }

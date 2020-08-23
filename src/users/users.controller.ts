@@ -1,4 +1,4 @@
-import { Controller, Post, Body, Get, Param, Response, HttpStatus, Delete, UseGuards, Request } from '@nestjs/common';
+import { Controller, Post, Body, Get, Param, Response, HttpStatus, Delete, UseGuards, Request, HttpCode } from '@nestjs/common';
 import { UsersService } from './users.service';
 import { create } from 'domain';
 import { User } from './dto/create-user.dto';
@@ -35,15 +35,17 @@ export class UsersController {
   }
 
   @Post()
-  @UseGuards(AuthGuard('jwt'))
-  create(@Response() res,@Request() req, @Body() createUserDto: User) {
+  // @UseGuards(AuthGuard('jwt'))
+  create(@Response() res, @Request() req, @Body() createUserDto: User) {
     this.Userservice.create(createUserDto);
- /*    const sss: String = createUserDto.id;
-     const zz = this.Userservice.createToken(sss);
-     console.log(zz) */
-     console.log(req)
-    return res.status(HttpStatus.OK).json(req.user);
+    /*    const sss: String = createUserDto.id;
+        const zz = this.Userservice.createToken(sss);
+        console.log(zz) */
+    console.log(req)
+    return res.status(HttpStatus.OK).json(createUserDto);
   }
 
 
+  
+   
 }
