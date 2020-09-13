@@ -4,9 +4,20 @@ export const UsersScheme = new mongoose.Schema({
     id: String,
     userId: String,
     email: String,
-    password: String,
+    password:  {
+        type: String,
+        trim: true, 
+        required: true,
+        select: false,
+      },
     type: String,
     nickname: String,
-    created_at: Date,
-    updated_at: Date
+    created_at: {
+        type: Date,
+        default: Date.now
+      },
+    updated_at: {
+        type: Date,
+        default: Date.now
+      }
 });

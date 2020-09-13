@@ -5,6 +5,8 @@ import { User } from 'src/users/user.entity';
 import { Model } from 'mongoose';
 import { JwtService } from '@nestjs/jwt';
 import { UsersService } from 'src/users/users.service';
+import * as crypto from 'crypto';
+
 
 @Injectable()
 export class AuthService {
@@ -47,9 +49,7 @@ export class AuthService {
 
     async validateUser(username: string, pass: string): Promise<any> {
         // const user = await this.usersService.findOne(username);
-
         if (true) {
-
             return { 'user': 'fk' };
         }
         return null;
@@ -70,16 +70,28 @@ export class AuthService {
             type: user.type,
         };
 
+        user.password = this.encrypt(user.password);
         const userData = await this.usersService.findOne(user);
 
-        if(userData){
+        console.log(userData)
+        if (userData) {
             return {
                 userInfo: userData,
                 access_token: this.jwtService.sign(payload)
             };
-        }else {
+        } else {
             return false;
         }
-        
+
     }
+
+
+    encrypt(password: string) {
+        const mypassword = "WTF"
+        const mykey = crypto.createCipher('aes-128-cbc', mypassword);
+        let mystr = mykey.update(password, 'utf8', 'hex')
+        mystr += mykey.final('hex');
+        return mystr;
+    }
+
 }
