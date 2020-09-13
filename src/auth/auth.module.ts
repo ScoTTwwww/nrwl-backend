@@ -19,7 +19,7 @@ import { UsersModule } from 'src/users/users.module';
       signOptions: { expiresIn: '2h' }
     })
   ],
-  providers: [AuthService, LocalStrategy, JwtStrategy],
+  providers: [AuthService,  LocalStrategy, JwtStrategy],
   controllers: [AuthController],
   exports: [AuthService],
 })
