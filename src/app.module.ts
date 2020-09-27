@@ -14,8 +14,8 @@ import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
-    AuthModule,
     UsersModule,
+    AuthModule,
     TapGameModule,
     MongooseModule.forRoot('mongodb://scott168:scott168@ds249967.mlab.com:49967/shoping-cart'),
   ],
