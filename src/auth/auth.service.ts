@@ -1,7 +1,7 @@
 import * as jwt from 'jsonwebtoken';
 import { Injectable, Inject } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
-import { User } from 'src/users/user.entity';
+import { User } from '../users/user.entity';
 import { Model } from 'mongoose';
 import { JwtService } from '@nestjs/jwt';
 import { UsersService } from '../users/users.service';
