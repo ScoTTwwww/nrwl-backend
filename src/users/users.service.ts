@@ -20,7 +20,7 @@ export class UsersService {
     //private authService: AuthService
   ) { }
 
-  //创建cats
+  //創建User
   async create(createUserDto: User): Promise<any> {
     createUserDto.password = this.encrypt(createUserDto.password);
     const createdUser = new this.usersModel(createUserDto);

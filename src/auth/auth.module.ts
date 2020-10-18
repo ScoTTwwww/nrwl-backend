@@ -11,7 +11,7 @@ import { jwtConstants } from './constants';
 import { UsersModule } from '../users/users.module';
 import { UsersService } from '../users/users.service';
 import { MongooseModule } from '@nestjs/mongoose';
-import { UsersScheme } from 'src/users/schemas/users.schema';
+import { UsersScheme } from '../users/schemas/users.schema';
 
 @Module({
   imports: [

@@ -1,5 +1,5 @@
 import * as jwt from 'jsonwebtoken';
-import { Injectable, Inject } from '@nestjs/common';
+import { Injectable, Inject, HttpException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { User } from '../users/user.entity';
 import { Model } from 'mongoose';
@@ -74,13 +74,14 @@ export class AuthService {
         const userData = await this.usersService.findOne(user);
 
         console.log(userData)
-        if (userData) {
+        if (Object.keys(userData).length  !== 0) {
             return {
                 userInfo: userData,
                 access_token: this.jwtService.sign(payload)
             };
         } else {
-            return false;
+             throw new HttpException('禁止訪問',401);
+            
         }
 
     }
