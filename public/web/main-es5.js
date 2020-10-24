@@ -115,12 +115,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         _classCallCheck(this, AuthService);
 
         this.http = http;
-        this.loginUrl = 'http://localhost:3000/api/auth/login';
+        this.loginUrl = '/api/auth/login';
       }
 
       _createClass(AuthService, [{
         key: "login",
         value: function login(user) {
+          console.log(location.origin);
           return this.http.post(this.loginUrl, user);
         }
       }]);
@@ -1606,7 +1607,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function loadConfig() {
           var _this5 = this;
 
-          this.httpClient.get('http://localhost:4200/assets/config.json').subscribe(function (config) {
+          this.httpClient.get('assets/config.json').subscribe(function (config) {
             console.log("--- Loading Finish config ---", config);
             _this5._config = config; // this.themeService.initTheme( this._config.theme.default)
 

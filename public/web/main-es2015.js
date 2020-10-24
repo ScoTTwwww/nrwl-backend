@@ -40,9 +40,10 @@ __webpack_require__.r(__webpack_exports__);
 let AuthService = class AuthService {
     constructor(http) {
         this.http = http;
-        this.loginUrl = 'http://localhost:3000/api/auth/login';
+        this.loginUrl = '/api/auth/login';
     }
     login(user) {
+        console.log(location.origin);
         return this.http.post(this.loginUrl, user);
     }
 };
@@ -896,7 +897,7 @@ let ConfigService = class ConfigService {
         return this._config;
     }
     loadConfig() {
-        this.httpClient.get('http://localhost:4200/assets/config.json').subscribe(config => {
+        this.httpClient.get('assets/config.json').subscribe(config => {
             console.log("--- Loading Finish config ---", config);
             this._config = config;
             // this.themeService.initTheme( this._config.theme.default)
