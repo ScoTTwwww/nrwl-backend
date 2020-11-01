@@ -13,7 +13,7 @@ async function bootstrap() {
     await app.listen(3000);
   } else {
     const app = await NestFactory.create<NestExpressApplication>(AppModule);
-    app.enableCors();
+
     app.useStaticAssets(join(__dirname, '..', 'public/web'), { prefix: '/web/' });
     app.useStaticAssets(join(__dirname, '..', 'public/ionic'), { prefix: '/mobile/' });
     app.useStaticAssets(join(__dirname, '..', 'public/tapGame'), { prefix: '/tapGame/' });
