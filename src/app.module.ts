@@ -17,7 +17,7 @@ import { AuthModule } from './auth/auth.module';
     UsersModule,
     AuthModule,
     TapGameModule,
-    MongooseModule.forRoot('mongodb://scott168:scott168@ds249967.mlab.com:49967/shoping-cart'),
+    MongooseModule.forRoot('mongodb+srv://scott:1234@cluster0.chhyw.mongodb.net/my-admin'),
   ],
   
   controllers: [AppController],

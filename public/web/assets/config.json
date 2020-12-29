@@ -13,5 +13,7 @@
       "zh-TW"
     ],
     "default": "zh-TW"
-  }
+  },
+  "api": null,
+  "api-default": "https://backend-dot-my-project-nrwl.df.r.appspot.com"
 }

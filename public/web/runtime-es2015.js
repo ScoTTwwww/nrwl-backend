@@ -64,7 +64,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({"frontend-web-app":"frontend-web-app","frontend-web-login":"frontend-web-login","frontend-web-home":"frontend-web-home"}[chunkId]||chunkId) + "-es2015.js"
+/******/ 		return __webpack_require__.p + "" + ({"frontend-web-app":"frontend-web-app","frontend-web-login":"frontend-web-login","frontend-web-home":"frontend-web-home","frontend-web-user":"frontend-web-user"}[chunkId]||chunkId) + "-es2015.js"
 /******/ 	}
 /******/
 /******/ 	// The require function

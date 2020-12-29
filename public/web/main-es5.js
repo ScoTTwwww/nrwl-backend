@@ -115,14 +115,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         _classCallCheck(this, AuthService);
 
         this.http = http;
-        this.loginUrl = '/api/auth/login';
+        this.xxx = false;
+        this.api = 'http://localhost:3000';
+        this.loginUrl = this.xxx ? "".concat(this.api, "/api/auth/login") : '/api/auth/login';
       }
 
       _createClass(AuthService, [{
         key: "login",
         value: function login(user) {
-          console.log(location.origin);
           return this.http.post(this.loginUrl, user);
+        }
+      }, {
+        key: "register",
+        value: function register(data) {
+          console.log("".concat(this.api, "/api/auth/register"), data);
+          return this.http.post("/api/auth/register", data);
         }
       }]);
 
@@ -795,7 +802,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     !*** /opt/app/libs/common/core/src/index.ts ***!
     \**********************************************/
 
-  /*! exports provided: CommonCoreModule */
+  /*! exports provided: BASE_PROVIDERS, CommonCoreModule */
 
   /***/
   function libsCommonCoreSrcIndexTs(module, __webpack_exports__, __webpack_require__) {
@@ -808,6 +815,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _lib_common_core_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! ./lib/common-core.module */
     "../../libs/common/core/src/lib/common-core.module.ts");
+    /* harmony reexport (safe) */
+
+
+    __webpack_require__.d(__webpack_exports__, "BASE_PROVIDERS", function () {
+      return _lib_common_core_module__WEBPACK_IMPORTED_MODULE_0__["BASE_PROVIDERS"];
+    });
     /* harmony reexport (safe) */
 
 
@@ -824,13 +837,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     !*** /opt/app/libs/common/core/src/lib/common-core.module.ts ***!
     \***************************************************************/
 
-  /*! exports provided: CommonCoreModule */
+  /*! exports provided: BASE_PROVIDERS, CommonCoreModule */
 
   /***/
   function libsCommonCoreSrcLibCommonCoreModuleTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "BASE_PROVIDERS", function () {
+      return BASE_PROVIDERS;
+    });
     /* harmony export (binding) */
 
 
@@ -873,15 +892,116 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! @ngx-translate/core */
     "../../node_modules/@ngx-translate/core/__ivy_ngcc__/fesm2015/ngx-translate-core.js");
+    /* harmony import */
 
-    var CommonCoreModule = function CommonCoreModule() {
-      _classCallCheck(this, CommonCoreModule);
-    };
 
-    CommonCoreModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+    var _interceptors_api_api_interceptor__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! ./interceptors/api/api.interceptor */
+    "../../libs/common/core/src/lib/interceptors/api/api.interceptor.ts");
+
+    var CommonCoreModule_1;
+    var BASE_PROVIDERS = [{
+      provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HTTP_INTERCEPTORS"],
+      useClass: _interceptors_api_api_interceptor__WEBPACK_IMPORTED_MODULE_6__["ApiInterceptor"],
+      multi: true
+    }];
+
+    var CommonCoreModule = CommonCoreModule_1 = /*#__PURE__*/function () {
+      function CommonCoreModule() {
+        _classCallCheck(this, CommonCoreModule);
+      }
+
+      _createClass(CommonCoreModule, null, [{
+        key: "forRoot",
+        value: function forRoot() {
+          return {
+            ngModule: CommonCoreModule_1,
+            providers: [].concat(BASE_PROVIDERS)
+          };
+        }
+      }]);
+
+      return CommonCoreModule;
+    }();
+
+    CommonCoreModule = CommonCoreModule_1 = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
       imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ReactiveFormsModule"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_5__["TranslateModule"]],
       exports: [_angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ReactiveFormsModule"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_5__["TranslateModule"]]
     })], CommonCoreModule);
+    /***/
+  },
+
+  /***/
+  "../../libs/common/core/src/lib/interceptors/api/api.interceptor.ts":
+  /*!*****************************************************************************!*\
+    !*** /opt/app/libs/common/core/src/lib/interceptors/api/api.interceptor.ts ***!
+    \*****************************************************************************/
+
+  /*! exports provided: ApiInterceptor */
+
+  /***/
+  function libsCommonCoreSrcLibInterceptorsApiApiInterceptorTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ApiInterceptor", function () {
+      return ApiInterceptor;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "../../node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _frontend_common_shared__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @frontend/common/shared */
+    "../../libs/common/shared/src/index.ts");
+
+    var ApiInterceptor = /*#__PURE__*/function () {
+      function ApiInterceptor(configService) {
+        _classCallCheck(this, ApiInterceptor);
+
+        this.configService = configService;
+      }
+
+      _createClass(ApiInterceptor, [{
+        key: "intercept",
+        value: function intercept(req, next) {
+          if (req.url.indexOf('api/') !== -1) {
+            // console.log(location.origin)
+            var url = this.configService.config.api || location.origin;
+            console.log("".concat(url).concat(req.url));
+            req = req.clone({
+              url: "".concat(url).concat(req.url)
+            });
+          }
+
+          return next.handle(req);
+        }
+      }]);
+
+      return ApiInterceptor;
+    }();
+
+    ApiInterceptor.ctorParameters = function () {
+      return [{
+        type: _frontend_common_shared__WEBPACK_IMPORTED_MODULE_2__["ConfigService"]
+      }];
+    };
+
+    ApiInterceptor = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(), Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_frontend_common_shared__WEBPACK_IMPORTED_MODULE_2__["ConfigService"]])], ApiInterceptor);
     /***/
   },
 
@@ -954,7 +1074,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _angular_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @angular/material/dialog */
+    "../../node_modules/@angular/material/__ivy_ngcc__/esm2015/dialog.js");
+    /* harmony import */
+
+
+    var _angular_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! @angular/material */
     "../../node_modules/@angular/material/__ivy_ngcc__/esm2015/material.js");
 
@@ -963,8 +1089,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     };
 
     CommonMaterialModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-      exports: [_angular_material__WEBPACK_IMPORTED_MODULE_3__["MatButtonModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatToolbarModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatIconModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatSidenavModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatBadgeModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatListModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatGridListModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatInputModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatFormFieldModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatSelectModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatRadioModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatDatepickerModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatChipsModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatTooltipModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatTableModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatPaginatorModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatCardModule"], _angular_flex_layout__WEBPACK_IMPORTED_MODULE_2__["FlexLayoutModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatProgressBarModule"], _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatMenuModule"]],
-      providers: [_angular_material__WEBPACK_IMPORTED_MODULE_3__["MatDatepickerModule"]]
+      exports: [_angular_material__WEBPACK_IMPORTED_MODULE_4__["MatButtonModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatToolbarModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatIconModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatSidenavModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatBadgeModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatListModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatGridListModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatInputModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatFormFieldModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatSelectModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatRadioModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatDatepickerModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatChipsModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatTooltipModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatTableModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatPaginatorModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatCardModule"], _angular_flex_layout__WEBPACK_IMPORTED_MODULE_2__["FlexLayoutModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatProgressBarModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatMenuModule"], _angular_material_dialog__WEBPACK_IMPORTED_MODULE_3__["MatDialogModule"]],
+      providers: [_angular_material__WEBPACK_IMPORTED_MODULE_4__["MatDatepickerModule"]]
     })], CommonMaterialModule);
     /***/
   },
@@ -1978,7 +2104,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     };
 
     WebCoreModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _frontend_common_core__WEBPACK_IMPORTED_MODULE_3__["CommonCoreModule"]],
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _frontend_common_core__WEBPACK_IMPORTED_MODULE_3__["CommonCoreModule"].forRoot()],
       exports: [_frontend_common_core__WEBPACK_IMPORTED_MODULE_3__["CommonCoreModule"]]
     })], WebCoreModule);
     /***/
@@ -2606,7 +2732,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
     var environment = {
-      production: false
+      production: false,
+      api: 'http://localhost:3000'
     };
     /*
      * For easier debugging in development mode, you can import the following file

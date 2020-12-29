@@ -40,11 +40,16 @@ __webpack_require__.r(__webpack_exports__);
 let AuthService = class AuthService {
     constructor(http) {
         this.http = http;
-        this.loginUrl = '/api/auth/login';
+        this.xxx = false;
+        this.api = 'http://localhost:3000';
+        this.loginUrl = this.xxx ? `${this.api}/api/auth/login` : '/api/auth/login';
     }
     login(user) {
-        console.log(location.origin);
         return this.http.post(this.loginUrl, user);
+    }
+    register(data) {
+        console.log(`${this.api}/api/auth/register`, data);
+        return this.http.post("/api/auth/register", data);
     }
 };
 AuthService.ctorParameters = () => [
@@ -408,12 +413,14 @@ CommonAuthStateModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])
 /*!**********************************************!*\
   !*** /opt/app/libs/common/core/src/index.ts ***!
   \**********************************************/
-/*! exports provided: CommonCoreModule */
+/*! exports provided: BASE_PROVIDERS, CommonCoreModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_common_core_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./lib/common-core.module */ "../../libs/common/core/src/lib/common-core.module.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "BASE_PROVIDERS", function() { return _lib_common_core_module__WEBPACK_IMPORTED_MODULE_0__["BASE_PROVIDERS"]; });
+
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CommonCoreModule", function() { return _lib_common_core_module__WEBPACK_IMPORTED_MODULE_0__["CommonCoreModule"]; });
 
 
@@ -425,11 +432,12 @@ __webpack_require__.r(__webpack_exports__);
 /*!***************************************************************!*\
   !*** /opt/app/libs/common/core/src/lib/common-core.module.ts ***!
   \***************************************************************/
-/*! exports provided: CommonCoreModule */
+/*! exports provided: BASE_PROVIDERS, CommonCoreModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BASE_PROVIDERS", function() { return BASE_PROVIDERS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CommonCoreModule", function() { return CommonCoreModule; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
@@ -437,15 +445,31 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ "../../node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
 /* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ngx-translate/core */ "../../node_modules/@ngx-translate/core/__ivy_ngcc__/fesm2015/ngx-translate-core.js");
+/* harmony import */ var _interceptors_api_api_interceptor__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./interceptors/api/api.interceptor */ "../../libs/common/core/src/lib/interceptors/api/api.interceptor.ts");
+var CommonCoreModule_1;
 
 
 
 
 
 
-let CommonCoreModule = class CommonCoreModule {
+
+const BASE_PROVIDERS = [
+    {
+        provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HTTP_INTERCEPTORS"],
+        useClass: _interceptors_api_api_interceptor__WEBPACK_IMPORTED_MODULE_6__["ApiInterceptor"],
+        multi: true
+    }
+];
+let CommonCoreModule = CommonCoreModule_1 = class CommonCoreModule {
+    static forRoot() {
+        return {
+            ngModule: CommonCoreModule_1,
+            providers: [...BASE_PROVIDERS]
+        };
+    }
 };
-CommonCoreModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+CommonCoreModule = CommonCoreModule_1 = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
         imports: [
             _angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"],
@@ -462,6 +486,48 @@ CommonCoreModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         ]
     })
 ], CommonCoreModule);
+
+
+
+/***/ }),
+
+/***/ "../../libs/common/core/src/lib/interceptors/api/api.interceptor.ts":
+/*!*****************************************************************************!*\
+  !*** /opt/app/libs/common/core/src/lib/interceptors/api/api.interceptor.ts ***!
+  \*****************************************************************************/
+/*! exports provided: ApiInterceptor */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ApiInterceptor", function() { return ApiInterceptor; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _frontend_common_shared__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @frontend/common/shared */ "../../libs/common/shared/src/index.ts");
+
+
+
+let ApiInterceptor = class ApiInterceptor {
+    constructor(configService) {
+        this.configService = configService;
+    }
+    intercept(req, next) {
+        if (req.url.indexOf('api/') !== -1) {
+            // console.log(location.origin)
+            const url = this.configService.config.api || location.origin;
+            console.log(`${url}${req.url}`);
+            req = req.clone({ url: `${url}${req.url}` });
+        }
+        return next.handle(req);
+    }
+};
+ApiInterceptor.ctorParameters = () => [
+    { type: _frontend_common_shared__WEBPACK_IMPORTED_MODULE_2__["ConfigService"] }
+];
+ApiInterceptor = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_frontend_common_shared__WEBPACK_IMPORTED_MODULE_2__["ConfigService"]])
+], ApiInterceptor);
 
 
 
@@ -497,7 +563,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_flex_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/flex-layout */ "../../node_modules/@angular/flex-layout/__ivy_ngcc__/esm2015/flex-layout.js");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material */ "../../node_modules/@angular/material/__ivy_ngcc__/esm2015/material.js");
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/dialog */ "../../node_modules/@angular/material/__ivy_ngcc__/esm2015/dialog.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material */ "../../node_modules/@angular/material/__ivy_ngcc__/esm2015/material.js");
+
 
 
 
@@ -507,29 +575,30 @@ let CommonMaterialModule = class CommonMaterialModule {
 CommonMaterialModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
         exports: [
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatButtonModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatToolbarModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatIconModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatSidenavModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatBadgeModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatListModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatGridListModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatInputModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatFormFieldModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatSelectModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatRadioModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatDatepickerModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatChipsModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatTooltipModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatTableModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatPaginatorModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatCardModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatButtonModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatToolbarModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatIconModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatSidenavModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatBadgeModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatListModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatGridListModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatInputModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatFormFieldModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatSelectModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatRadioModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatDatepickerModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatChipsModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatTooltipModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatTableModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatPaginatorModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatCardModule"],
             _angular_flex_layout__WEBPACK_IMPORTED_MODULE_2__["FlexLayoutModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatProgressBarModule"],
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatMenuModule"]
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatProgressBarModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatMenuModule"],
+            _angular_material_dialog__WEBPACK_IMPORTED_MODULE_3__["MatDialogModule"]
         ],
         providers: [
-            _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatDatepickerModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatDatepickerModule"],
         ]
     })
 ], CommonMaterialModule);
@@ -1112,7 +1181,7 @@ WebCoreModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
         imports: [
             _angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"],
-            _frontend_common_core__WEBPACK_IMPORTED_MODULE_3__["CommonCoreModule"]
+            _frontend_common_core__WEBPACK_IMPORTED_MODULE_3__["CommonCoreModule"].forRoot()
         ],
         exports: [
             _frontend_common_core__WEBPACK_IMPORTED_MODULE_3__["CommonCoreModule"]
@@ -1494,7 +1563,8 @@ __webpack_require__.r(__webpack_exports__);
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 const environment = {
-    production: false
+    production: false,
+    api: 'http://localhost:3000'
 };
 /*
  * For easier debugging in development mode, you can import the following file

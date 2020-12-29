@@ -50,7 +50,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "mat-toolbar {\n  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);\n}\n\n.title {\n  padding: 0 10px 0 0;\n}\n\n.menu {\n  display: flex;\n  flex-direction: row;\n  font-size: 14px;\n  margin-left: 20px;\n}\n\n.menu a {\n  padding: 0 15px;\n}\n\n/* .example-spacer {\n  flex: 1 1 auto;\n} */\n\n.userId {\n  margin-left: 8px;\n  flex: 1 1 0%;\n  min-width: 100px;\n}\n\n.userId button {\n  width: auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9vcHQvYXBwL2xpYnMvd2ViL2FwcC9zcmMvbGliL2FwcC9hcHAuY29tcG9uZW50LnNjc3MiLCJsaWJzL3dlYi9hcHAvc3JjL2xpYi9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsZ0hBQUE7QUNDRjs7QURFQTtFQUNFLG1CQUFBO0FDQ0Y7O0FERUE7RUFDRSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7QUNDRjs7QURDRTtFQUNFLGVBQUE7QUNDSjs7QURHQTs7R0FBQTs7QUFJQTtFQUNFLGdCQUFBO0VBQ0EsWUFBQTtFQUNBLGdCQUFBO0FDREY7O0FER0U7RUFDRSxXQUFBO0FDREoiLCJmaWxlIjoibGlicy93ZWIvYXBwL3NyYy9saWIvYXBwL2FwcC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIm1hdC10b29sYmFyIHtcclxuICBib3gtc2hhZG93OiAwIDJweCA0cHggLTFweCByZ2JhKDAsMCwwLC4yKSwgMCA0cHggNXB4IDAgcmdiYSgwLDAsMCwuMTQpLCAwIDFweCAxMHB4IDAgcmdiYSgwLDAsMCwuMTIpO1xyXG59XHJcblxyXG4udGl0bGUge1xyXG4gIHBhZGRpbmc6IDAgMTBweCAwIDA7XHJcbn1cclxuXHJcbi5tZW51IHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtZGlyZWN0aW9uOiByb3c7XHJcbiAgZm9udC1zaXplOiAxNHB4O1xyXG4gIG1hcmdpbi1sZWZ0OiAyMHB4O1xyXG5cclxuICBhIHtcclxuICAgIHBhZGRpbmc6IDAgMTVweDtcclxuICB9XHJcbn1cclxuXHJcbi8qIC5leGFtcGxlLXNwYWNlciB7XHJcbiAgZmxleDogMSAxIGF1dG87XHJcbn0gKi9cclxuXHJcbi51c2VySWQge1xyXG4gIG1hcmdpbi1sZWZ0OiA4cHg7XHJcbiAgZmxleDogMSAxIDAlO1xyXG4gIG1pbi13aWR0aDogMTAwcHg7XHJcblxyXG4gIGJ1dHRvbiB7XHJcbiAgICB3aWR0aDogYXV0bztcclxuICB9XHJcbn1cclxuIiwibWF0LXRvb2xiYXIge1xuICBib3gtc2hhZG93OiAwIDJweCA0cHggLTFweCByZ2JhKDAsIDAsIDAsIDAuMiksIDAgNHB4IDVweCAwIHJnYmEoMCwgMCwgMCwgMC4xNCksIDAgMXB4IDEwcHggMCByZ2JhKDAsIDAsIDAsIDAuMTIpO1xufVxuXG4udGl0bGUge1xuICBwYWRkaW5nOiAwIDEwcHggMCAwO1xufVxuXG4ubWVudSB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gIGZvbnQtc2l6ZTogMTRweDtcbiAgbWFyZ2luLWxlZnQ6IDIwcHg7XG59XG4ubWVudSBhIHtcbiAgcGFkZGluZzogMCAxNXB4O1xufVxuXG4vKiAuZXhhbXBsZS1zcGFjZXIge1xuICBmbGV4OiAxIDEgYXV0bztcbn0gKi9cbi51c2VySWQge1xuICBtYXJnaW4tbGVmdDogOHB4O1xuICBmbGV4OiAxIDEgMCU7XG4gIG1pbi13aWR0aDogMTAwcHg7XG59XG4udXNlcklkIGJ1dHRvbiB7XG4gIHdpZHRoOiBhdXRvO1xufSJdfQ== */";
+    __webpack_exports__["default"] = "mat-toolbar {\n  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);\n}\n\n.title {\n  padding: 0 10px 0 0;\n}\n\n.menu {\n  display: flex;\n  flex-direction: row;\n  font-size: 14px;\n  margin-left: 20px;\n}\n\n.menu a {\n  padding: 0 15px;\n}\n\n/* .example-spacer {\n  flex: 1 1 auto;\n} */\n\n.userId {\n  margin-left: 8px;\n  flex: 1 1 0%;\n  min-width: 100px;\n}\n\n.userId button {\n  width: auto;\n}\n\n.content {\n  margin-top: 20px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9vcHQvYXBwL2xpYnMvd2ViL2FwcC9zcmMvbGliL2FwcC9hcHAuY29tcG9uZW50LnNjc3MiLCJsaWJzL3dlYi9hcHAvc3JjL2xpYi9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsZ0hBQUE7QUNDRjs7QURFQTtFQUNFLG1CQUFBO0FDQ0Y7O0FERUE7RUFDRSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7QUNDRjs7QURDRTtFQUNFLGVBQUE7QUNDSjs7QURHQTs7R0FBQTs7QUFJQTtFQUNFLGdCQUFBO0VBQ0EsWUFBQTtFQUNBLGdCQUFBO0FDREY7O0FER0U7RUFDRSxXQUFBO0FDREo7O0FETUE7RUFDRSxnQkFBQTtBQ0hGIiwiZmlsZSI6ImxpYnMvd2ViL2FwcC9zcmMvbGliL2FwcC9hcHAuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJtYXQtdG9vbGJhciB7XHJcbiAgYm94LXNoYWRvdzogMCAycHggNHB4IC0xcHggcmdiYSgwLDAsMCwuMiksIDAgNHB4IDVweCAwIHJnYmEoMCwwLDAsLjE0KSwgMCAxcHggMTBweCAwIHJnYmEoMCwwLDAsLjEyKTtcclxufVxyXG5cclxuLnRpdGxlIHtcclxuICBwYWRkaW5nOiAwIDEwcHggMCAwO1xyXG59XHJcblxyXG4ubWVudSB7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4LWRpcmVjdGlvbjogcm93O1xyXG4gIGZvbnQtc2l6ZTogMTRweDtcclxuICBtYXJnaW4tbGVmdDogMjBweDtcclxuXHJcbiAgYSB7XHJcbiAgICBwYWRkaW5nOiAwIDE1cHg7XHJcbiAgfVxyXG59XHJcblxyXG4vKiAuZXhhbXBsZS1zcGFjZXIge1xyXG4gIGZsZXg6IDEgMSBhdXRvO1xyXG59ICovXHJcblxyXG4udXNlcklkIHtcclxuICBtYXJnaW4tbGVmdDogOHB4O1xyXG4gIGZsZXg6IDEgMSAwJTtcclxuICBtaW4td2lkdGg6IDEwMHB4O1xyXG5cclxuICBidXR0b24ge1xyXG4gICAgd2lkdGg6IGF1dG87XHJcbiAgfVxyXG59XHJcblxyXG5cclxuLmNvbnRlbnR7XHJcbiAgbWFyZ2luLXRvcDogMjBweDtcclxufVxyXG4iLCJtYXQtdG9vbGJhciB7XG4gIGJveC1zaGFkb3c6IDAgMnB4IDRweCAtMXB4IHJnYmEoMCwgMCwgMCwgMC4yKSwgMCA0cHggNXB4IDAgcmdiYSgwLCAwLCAwLCAwLjE0KSwgMCAxcHggMTBweCAwIHJnYmEoMCwgMCwgMCwgMC4xMik7XG59XG5cbi50aXRsZSB7XG4gIHBhZGRpbmc6IDAgMTBweCAwIDA7XG59XG5cbi5tZW51IHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgZm9udC1zaXplOiAxNHB4O1xuICBtYXJnaW4tbGVmdDogMjBweDtcbn1cbi5tZW51IGEge1xuICBwYWRkaW5nOiAwIDE1cHg7XG59XG5cbi8qIC5leGFtcGxlLXNwYWNlciB7XG4gIGZsZXg6IDEgMSBhdXRvO1xufSAqL1xuLnVzZXJJZCB7XG4gIG1hcmdpbi1sZWZ0OiA4cHg7XG4gIGZsZXg6IDEgMSAwJTtcbiAgbWluLXdpZHRoOiAxMDBweDtcbn1cbi51c2VySWQgYnV0dG9uIHtcbiAgd2lkdGg6IGF1dG87XG59XG5cbi5jb250ZW50IHtcbiAgbWFyZ2luLXRvcDogMjBweDtcbn0iXX0= */";
     /***/
   },
 
@@ -232,7 +232,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       children: [{
         path: '',
         pathMatch: 'full',
-        redirectTo: 'home'
+        redirectTo: 'user'
       }, {
         path: 'home',
         loadChildren: function loadChildren() {
@@ -242,6 +242,18 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           /*! @frontend/web/home */
           "../../libs/web/home/src/index.ts")).then(function (m) {
             return m.WebHomeModule;
+          });
+        },
+        canLoad: [_frontend_common_shared__WEBPACK_IMPORTED_MODULE_3__["AuthGuard"]]
+      }, {
+        path: 'user',
+        loadChildren: function loadChildren() {
+          return __webpack_require__.e(
+          /*! import() | frontend-web-user */
+          "frontend-web-user").then(__webpack_require__.bind(null,
+          /*! @frontend/web/user */
+          "../../libs/web/user/src/index.ts")).then(function (m) {
+            return m.WebUserModule;
           });
         },
         canLoad: [_frontend_common_shared__WEBPACK_IMPORTED_MODULE_3__["AuthGuard"]]
@@ -275,7 +287,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<mat-toolbar color=\"primary\">\n  <mat-toolbar-row>\n    <span class=\"title\">ScoTT Admin 1.0</span>\n\n    <div class=\"menu\">\n      <a mat-button>使用者清單</a>\n      <a mat-button>產品清單</a>\n      <a mat-button>產品清單</a>\n      <a mat-button>產品清單</a>\n    </div>\n\n\n\n    <div class=\"userId\" fxLayout=\"row\" fxLayoutAlign=\"end center\" >\n      <button mat-icon-button [matMenuTriggerFor]=\"menu\" aria-label=\"Example icon-button with a menu\">\n        <mat-icon>account_circle</mat-icon>\n        {{ (user$ | async )?.userId }}\n      </button>\n      <mat-menu #menu=\"matMenu\">\n        <button mat-menu-item>\n          <mat-icon>dialpad</mat-icon>\n          <span>個人資料</span>\n        </button>\n        <button mat-menu-item disabled>\n          <mat-icon>voicemail</mat-icon>\n          <span>設定</span>\n        </button>\n        <button mat-menu-item (click)=\"logout()\">\n          <mat-icon>notifications_off</mat-icon>\n          <span>登出</span>\n        </button>\n      </mat-menu>\n    </div>\n\n  </mat-toolbar-row>\n</mat-toolbar>\n\n<router-outlet> </router-outlet>\n\n";
+    __webpack_exports__["default"] = "<mat-toolbar color=\"primary\">\r\n  <mat-toolbar-row no-padding class=\"container no-padding\">\r\n    <span class=\"title\">ScoTT Admin 1.0</span>\r\n\r\n    <div class=\"menu\">\r\n      <a mat-button>使用者清單</a>\r\n      <a mat-button>產品清單</a>\r\n      <a mat-button>產品清單</a>\r\n      <a mat-button>產品清單</a>\r\n    </div>\r\n\r\n\r\n\r\n    <div class=\"userId\" fxLayout=\"row\" fxLayoutAlign=\"end center\" >\r\n      <button mat-icon-button [matMenuTriggerFor]=\"menu\" aria-label=\"Example icon-button with a menu\">\r\n        <mat-icon>account_circle</mat-icon>\r\n        {{ (user$ | async )?.userId }}\r\n      </button>\r\n      <mat-menu #menu=\"matMenu\">\r\n        <button mat-menu-item>\r\n          <mat-icon>dialpad</mat-icon>\r\n          <span>個人資料</span>\r\n        </button>\r\n        <button mat-menu-item disabled>\r\n          <mat-icon>voicemail</mat-icon>\r\n          <span>設定</span>\r\n        </button>\r\n        <button mat-menu-item (click)=\"logout()\">\r\n          <mat-icon>notifications_off</mat-icon>\r\n          <span>登出</span>\r\n        </button>\r\n      </mat-menu>\r\n    </div>\r\n\r\n  </mat-toolbar-row>\r\n</mat-toolbar>\r\n\r\n\r\n<div class=\"content\">\r\n  <router-outlet> </router-outlet>\r\n</div>\r\n\r\n";
     /***/
   }
 }]);

@@ -186,7 +186,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
                             userId = result.userId,
                             token = result.token;
 
-                        _this2.router.navigate(['home']);
+                        _this2.router.navigate(['user']);
 
                         console.log("11111111111111", result);
                         sessionStorage.setItem('id', id);
@@ -204,6 +204,15 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
               }
             }, _callee, this);
           }));
+        }
+      }, {
+        key: "register",
+        value: function register() {
+          var data = {
+            userId: 'scott666',
+            password: 'scott666'
+          };
+          this.authService.register(data).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_6__["take"])(1)).subscribe();
         }
       }]);
 
@@ -326,7 +335,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n<div class=\"content\" fxLayout=\"column\" fxLayoutAlign=\"space-around center\" >\n  <mat-card>\n    <mat-card-title>{{ 'login.title' | translate }}</mat-card-title>\n\n    <form [formGroup]=\"formGroup\" *ngIf=\"formGroup\" class=\"example-form\" fxLayout=\"column\">\n      <mat-form-field class=\"example-full-width\">\n        <mat-label>{{ 'login.userId' | translate }}</mat-label>\n        <input type=\"text\" matInput formControlName=\"userId\">\n        <mat-error>\n          <ng-container *ngFor=\"let formError of formErrors['userId']; let index = index\">\n            <common-form-error-message ngDefaultControl\n              [formControl]=\"formGroup.controls['userId']\"\n              [formError]=\"formError\"\n            ></common-form-error-message>\n          </ng-container>\n        </mat-error>\n      </mat-form-field>\n\n\n      <mat-form-field class=\"example-full-width\">\n        <mat-label>{{ 'login.password' | translate }}</mat-label>\n        <input type=\"password\" matInput formControlName=\"password\">\n        <mat-error>\n          <ng-container *ngFor=\"let formError of formErrors['password']; let index = index\">\n            <common-form-error-message ngDefaultControl\n              [formControl]=\"formGroup.controls['password']\"\n              [formError]=\"formError\"\n            ></common-form-error-message>\n          </ng-container>\n        </mat-error>\n      </mat-form-field>\n    </form>\n\n    <button mat-raised-button color=\"primary\" [disabled]=\"!formGroup.valid\" (click)=\"send()\">{{ 'system.confirm' | translate }}</button>\n\n    <button class=\"visit\" mat-raised-button color=\"primary\" [disabled]=\"!formGroup.valid\" (click)=\"send(visitUser)\">訪客登入</button>\n\n    <span class=\"admin-title\">From ScoTT Admin 1.0</span>\n  </mat-card>\n\n\n</div>\n\n{{  user$ | async | json}}\n";
+    __webpack_exports__["default"] = "\r\n<div class=\"content\" fxLayout=\"column\" fxLayoutAlign=\"space-around center\" >\r\n  <mat-card>\r\n    <mat-card-title>{{ 'login.title' | translate }}</mat-card-title>\r\n\r\n    <form [formGroup]=\"formGroup\" *ngIf=\"formGroup\" class=\"example-form\" fxLayout=\"column\">\r\n      <mat-form-field class=\"example-full-width\">\r\n        <mat-label>{{ 'login.userId' | translate }}</mat-label>\r\n        <input type=\"text\" matInput formControlName=\"userId\">\r\n        <mat-error>\r\n          <ng-container *ngFor=\"let formError of formErrors['userId']; let index = index\">\r\n            <common-form-error-message ngDefaultControl\r\n              [formControl]=\"formGroup.controls['userId']\"\r\n              [formError]=\"formError\"\r\n            ></common-form-error-message>\r\n          </ng-container>\r\n        </mat-error>\r\n      </mat-form-field>\r\n\r\n\r\n      <mat-form-field class=\"example-full-width\">\r\n        <mat-label>{{ 'login.password' | translate }}</mat-label>\r\n        <input type=\"password\" matInput formControlName=\"password\">\r\n        <mat-error>\r\n          <ng-container *ngFor=\"let formError of formErrors['password']; let index = index\">\r\n            <common-form-error-message ngDefaultControl\r\n              [formControl]=\"formGroup.controls['password']\"\r\n              [formError]=\"formError\"\r\n            ></common-form-error-message>\r\n          </ng-container>\r\n        </mat-error>\r\n      </mat-form-field>\r\n    </form>\r\n\r\n    <button mat-raised-button color=\"primary\" [disabled]=\"!formGroup.valid\" (click)=\"send()\">{{ 'system.confirm' | translate }}</button>\r\n\r\n    <button class=\"visit\" mat-raised-button color=\"primary\" [disabled]=\"!formGroup.valid\" (click)=\"send(visitUser)\">訪客登入</button>\r\n    <button class=\"visit\" mat-raised-button color=\"primary\" (click)=\"register()\">註冊</button>\r\n\r\n    <span class=\"admin-title\">From ScoTT Admin 1.0</span>\r\n  </mat-card>\r\n\r\n\r\n</div>\r\n\r\n{{  user$ | async | json}}\r\n";
     /***/
   }
 }]);
