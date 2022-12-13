@@ -30,7 +30,7 @@
     "@nestjs/jwt": "^7.1.0",
     "@nestjs/mongoose": "^7.0.2",
     "@nestjs/passport": "^7.1.0",
-    "@nestjs/platform-express": "^7.0.0",
+    "@nestjs/platform-express": "^9.2.1",
     "@nestjs/typeorm": "^7.1.0",
     "@types/passport-jwt": "^3.0.3",
     "crypto": "^1.0.1",
